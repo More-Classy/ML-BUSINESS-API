@@ -3370,3 +3370,106 @@ UnboundLocalError: cannot access local variable 'time' where it is not associate
 2025-09-15 13:52:18,441 - app.main - INFO - Shutting down application...
 2025-09-15 13:52:18,441 - app.database.connection - INFO - Database connections closed
 2025-09-15 13:52:18,441 - app.main - INFO - Application shutdown complete
+2025-09-15 14:51:32,045 - app.main - INFO - Starting up application...
+2025-09-15 14:51:32,089 - app.database.connection - INFO - Database connection established successfully
+2025-09-15 14:51:32,089 - app.main - INFO - Database connected successfully
+2025-09-15 14:51:32,089 - app.main - INFO - DatabaseService initialized
+2025-09-15 14:51:32,466 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-15 14:51:32,473 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-15 14:51:32,473 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-15 14:51:32,473 - app.services.dialogflow_service - ERROR - Failed to initialize Dialogflow client: File ./credentials/dialogflow-service-account.json was not found.
+2025-09-15 14:51:32,834 - app.main - INFO - Preloading businesses from database...
+2025-09-15 14:51:32,834 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-15 14:51:33,830 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-15 14:51:33,841 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-15 14:51:33,841 - app.main - INFO - Application startup complete
+2025-09-15 14:53:12,992 - app.main - INFO - Shutting down application...
+2025-09-15 14:53:12,992 - app.database.connection - INFO - Database connections closed
+2025-09-15 14:53:12,992 - app.main - INFO - Application shutdown complete
+2025-09-16 10:13:48,627 - app.main - INFO - Starting up application...
+2025-09-16 10:13:48,654 - app.database.connection - INFO - Database connection established successfully
+2025-09-16 10:13:48,654 - app.main - INFO - Database connected successfully
+2025-09-16 10:13:48,654 - app.main - INFO - DatabaseService initialized
+2025-09-16 10:13:49,001 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-16 10:13:49,001 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-16 10:13:49,001 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-16 10:13:49,388 - app.main - INFO - Preloading businesses from database...
+2025-09-16 10:13:49,388 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 10:13:50,245 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 10:13:50,250 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-16 10:13:50,251 - app.main - INFO - Application startup complete
+2025-09-16 10:14:21,226 - app.services.dialogflow_service - ERROR - Dialogflow service error: Unknown field for QueryParameters: knowledge_base_names
+2025-09-16 10:14:22,268 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-16 10:14:22,272 - app.services.dialogflow_service - ERROR - ChatGPT fallback failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************dnEA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-09-16 10:36:38,296 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 10:36:39,198 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 10:49:04,218 - app.main - INFO - Shutting down application...
+2025-09-16 10:49:04,218 - app.database.connection - INFO - Database connections closed
+2025-09-16 10:49:04,218 - app.main - INFO - Application shutdown complete
+2025-09-16 10:49:06,695 - app.main - INFO - Starting up application...
+2025-09-16 10:49:09,317 - app.main - INFO - Starting up application...
+2025-09-16 10:49:09,328 - app.database.connection - INFO - Database connection established successfully
+2025-09-16 10:49:09,328 - app.main - INFO - Database connected successfully
+2025-09-16 10:49:09,328 - app.main - INFO - DatabaseService initialized
+2025-09-16 10:49:09,649 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-16 10:49:09,649 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-16 10:49:09,649 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-16 10:49:10,025 - app.main - INFO - Preloading businesses from database...
+2025-09-16 10:49:10,025 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 10:49:10,743 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 10:49:10,746 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-16 10:49:10,747 - app.main - INFO - Application startup complete
+2025-09-16 10:49:12,381 - app.main - INFO - Shutting down application...
+2025-09-16 10:49:12,381 - app.database.connection - INFO - Database connections closed
+2025-09-16 10:49:12,381 - app.main - INFO - Application shutdown complete
+2025-09-16 11:00:17,984 - app.main - INFO - Starting up application...
+2025-09-16 11:00:18,003 - app.database.connection - INFO - Database connection established successfully
+2025-09-16 11:00:18,003 - app.main - INFO - Database connected successfully
+2025-09-16 11:00:18,003 - app.main - INFO - DatabaseService initialized
+2025-09-16 11:00:18,311 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-16 11:00:18,311 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-16 11:00:18,311 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-16 11:00:18,666 - app.main - INFO - Preloading businesses from database...
+2025-09-16 11:00:18,666 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:00:19,356 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:00:19,360 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-16 11:00:19,360 - app.main - INFO - Application startup complete
+2025-09-16 11:01:05,830 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:01:06,678 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:01:06,684 - app.services.recommendation_service - INFO - Filtering 8173 businesses based on preferences: interests=['tech', 'fashion'] location='nairobi' price_range=<PriceRange.BUDGET: 'budget'>
+2025-09-16 11:01:06,704 - app.services.recommendation_service - INFO - Found 48 businesses matching preferences
+2025-09-16 11:01:06,704 - app.services.recommendation_service - INFO - Returning 48 unique businesses after filtering
+2025-09-16 11:03:45,866 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:03:46,695 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:04:18,829 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:04:19,594 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:08:59,109 - app.main - INFO - Shutting down application...
+2025-09-16 11:08:59,109 - app.database.connection - INFO - Database connections closed
+2025-09-16 11:08:59,109 - app.main - INFO - Application shutdown complete
+2025-09-16 11:09:49,113 - app.main - INFO - Starting up application...
+2025-09-16 11:09:49,129 - app.database.connection - INFO - Database connection established successfully
+2025-09-16 11:09:49,129 - app.main - INFO - Database connected successfully
+2025-09-16 11:09:49,129 - app.main - INFO - DatabaseService initialized
+2025-09-16 11:09:49,460 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-16 11:09:49,462 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-16 11:09:49,462 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-16 11:09:49,844 - app.main - INFO - Preloading businesses from database...
+2025-09-16 11:09:49,844 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:09:50,484 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:09:50,488 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-16 11:09:50,489 - app.main - INFO - Application startup complete
+2025-09-16 11:11:34,995 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:11:35,713 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:11:35,726 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:11:36,509 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:13:16,656 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:13:17,594 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:23:00,697 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:23:01,412 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:23:01,427 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:23:02,107 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 11:24:28,212 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 11:24:28,924 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 13:59:20,518 - app.main - INFO - Shutting down application...
+2025-09-16 13:59:20,533 - app.database.connection - INFO - Database connections closed
+2025-09-16 13:59:20,533 - app.main - INFO - Application shutdown complete

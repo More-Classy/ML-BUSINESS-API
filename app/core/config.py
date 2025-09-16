@@ -28,6 +28,9 @@ class Settings(BaseSettings):
     # ML Settings
     RECOMMENDATION_MODEL_PATH: str = "./ml_models/recommendation"
     MIN_TRAINING_SAMPLES: int = 1000
+
+    # dialogflow
+    DIALOGFLOW_KNOWLEDGE_BASE_ID: str
     
     class Config:
         env_file = ".env"

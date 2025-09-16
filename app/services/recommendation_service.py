@@ -6,6 +6,7 @@ import json
 import random
 import time
 import logging
+from collections import defaultdict
 
 logger = logging.getLogger(__name__)
 
@@ -16,6 +17,7 @@ class RecommendationService:
         self.business_endpoint = settings.CSHARP_BUSINESS_ENDPOINT
         self.cache = {}  # Simple in-memory cache
         self.user_behavior = {}  # Store user behavior in memory
+        self.session_behavior = defaultdict(dict)  
 
     async def get_all_businesses(self, limit:Optional[int] = None) -> List[BusinessResponse]:
         """Get all businesses from database"""
@@ -293,35 +295,30 @@ class RecommendationService:
         logger.info(f"Available categories in businesses: {sorted(all_categories)}")
         return sorted(all_categories)
     
+   
     async def recommend_based_on_behavior(
         self, 
-        user_id: Optional[int] = None
+        user_id: Optional[int] = None,
+        session_id: Optional[str] = None
     ) -> List[BusinessResponse]:
-        """Recommend businesses based on user behavior"""
+        """Recommend businesses based on user/session behavior"""
         all_businesses = await self.get_all_businesses()
         
-        # If no user ID provided, return popular businesses
-        if not user_id:
-            return await self.get_popular_businesses()
-        
-        # Get user's behavior from memory
-        user_behavior = self.user_behavior.get(user_id, {})
-        viewed_businesses = user_behavior.get("viewed", [])
-        purchased_businesses = user_behavior.get("purchased", [])
+        # Get behavior data
+        behavior_key = f"user_{user_id}" if user_id else f"session_{session_id}"
+        behavior_data = self.user_behavior.get(behavior_key, {})
+        viewed_businesses = behavior_data.get("viewed", [])
+        purchased_businesses = behavior_data.get("purchased", [])
         
         if not viewed_businesses and not purchased_businesses:
-            # If no behavior data, return popular businesses
             return await self.get_popular_businesses()
         
-        # Simple recommendation: businesses similar to those purchased
         recommendations = []
+        
+        # Recommend based on purchased items first
         for business_id in purchased_businesses:
-            purchased_business = next(
-                (b for b in all_businesses if b.id == business_id), 
-                None
-            )
+            purchased_business = next((b for b in all_businesses if b.id == business_id), None)
             if purchased_business:
-                # Find similar businesses (same category)
                 similar = [
                     b for b in all_businesses 
                     if b.id != business_id and 
@@ -332,10 +329,7 @@ class RecommendationService:
         # If no purchased items, use viewed items
         if not recommendations and viewed_businesses:
             for business_id in viewed_businesses:
-                viewed_business = next(
-                    (b for b in all_businesses if b.id == business_id), 
-                    None
-                )
+                viewed_business = next((b for b in all_businesses if b.id == business_id), None)
                 if viewed_business:
                     similar = [
                         b for b in all_businesses 
@@ -344,7 +338,7 @@ class RecommendationService:
                     ]
                     recommendations.extend(similar)
         
-        # Remove duplicates and return
+        # Remove duplicates and return top recommendations
         seen = set()
         unique_recommendations = []
         for business in recommendations:
@@ -352,23 +346,23 @@ class RecommendationService:
                 seen.add(business.id)
                 unique_recommendations.append(business)
         
-        return unique_recommendations if unique_recommendations else await self.get_popular_businesses()
+        return unique_recommendations[:10] if unique_recommendations else await self.get_popular_businesses()
     
     async def track_user_behavior(
         self, 
         user_id: Optional[int], 
+        session_id: Optional[str],
         business_id: str, 
         action: str
-    ):
-        """Track user behavior (clicks/purchases)"""
-        if not user_id:
-            return  # Skip tracking if no user ID
+    ) -> List[BusinessResponse]:
+        """Track user behavior and return similar businesses"""
+        # Store behavior based on user_id or session_id
+        behavior_key = f"user_{user_id}" if user_id else f"session_{session_id}"
         
-        # Get existing behavior data
-        if user_id not in self.user_behavior:
-            self.user_behavior[user_id] = {"viewed": [], "purchased": []}
+        if behavior_key not in self.user_behavior:
+            self.user_behavior[behavior_key] = {"viewed": [], "purchased": []}
         
-        behavior_data = self.user_behavior[user_id]
+        behavior_data = self.user_behavior[behavior_key]
         
         # Update based on action
         if action in ["click", "view"] and business_id not in behavior_data["viewed"]:
@@ -382,6 +376,47 @@ class RecommendationService:
             # Keep only recent 10 entries
             if len(behavior_data["purchased"]) > 10:
                 behavior_data["purchased"].pop(0)
+        
+        # Get similar businesses to the one that was clicked
+        similar_businesses = await self.get_similar_businesses(business_id)
+        
+        # Get personalized recommendations based on behavior
+        recommended_businesses = await self.recommend_based_on_behavior(user_id, session_id)
+        
+        return similar_businesses, recommended_businesses
+
+    async def get_similar_businesses(self, business_id: str, limit: int = 5) -> List[BusinessResponse]:
+        """Get businesses similar to the given business ID"""
+        all_businesses = await self.get_all_businesses()
+        
+        # Find the target business
+        target_business = next((b for b in all_businesses if b.id == business_id), None)
+        if not target_business:
+            return []
+        
+        # Calculate similarity based on categories and create a list with similarity scores
+        business_similarity = []
+        for business in all_businesses:
+            if business.id == business_id:
+                continue
+            
+            # Simple similarity: businesses sharing at least one category
+            common_categories = set(target_business.categories) & set(business.categories)
+            if common_categories:
+                # Store business and its similarity score separately
+                business_similarity.append({
+                    'business': business,
+                    'similarity_score': len(common_categories)
+                })
+        
+        # Sort by similarity score and rating
+        business_similarity.sort(key=lambda x: (
+            -x['similarity_score'],
+            -(x['business'].rating or 0)
+        ))
+        
+        # Return only the business objects (without the similarity_score field)
+        return [item['business'] for item in business_similarity[:limit]]
     
     async def get_popular_businesses(self) -> List[BusinessResponse]:
         """Get popular businesses sorted by rating and reviews"""

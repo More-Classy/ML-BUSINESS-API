@@ -1,11 +1,14 @@
-from fastapi import APIRouter, HTTPException
-from typing import List
+from fastapi import APIRouter, HTTPException,  Request, Response
+from typing import List, Optional
 from pydantic import BaseModel, Field
+import uuid
 from app.models.schemas import (
     PreferenceRecommendationRequest,
     BehaviorRecommendationRequest,
     BehaviorTrackingRequest,
-    BusinessResponse
+    BusinessResponse,
+    BehaviorTrackingResponse,
+    RecommendationResponse
 )
 from app.services.recommendation_service import get_recommendation_service
 
@@ -31,28 +34,63 @@ async def get_recommendations_by_preferences(request: PreferenceRecommendationRe
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.post("/behavior", response_model=RecommendationResponse)
-async def get_recommendations_by_behavior(request: BehaviorRecommendationRequest):
+async def get_recommendations_by_behavior(
+    request: Request,
+    user_id: Optional[int] = None,
+    session_id: Optional[str] = None,
+    limit: int = 10
+):
     try:
+        # Get session ID from cookie if not provided
+        if not user_id and not session_id:
+            session_id = request.cookies.get("session_id")
+        
         businesses = await get_recommendation_service().recommend_based_on_behavior(
-            request.user_id
+            user_id, session_id
         )
+        
         return RecommendationResponse(
-            businesses=businesses[:request.limit],
+            businesses=businesses[:limit],
             source="behavior_based",
-            confidence=0.7 if request.user_id else 0.6
+            confidence=0.7 if user_id or session_id else 0.6
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@router.post("/track-behavior")
-async def track_user_behavior(request: BehaviorTrackingRequest):
+@router.post("/track-behavior", response_model=BehaviorTrackingResponse)
+async def track_user_behavior(
+    request: Request,
+    response: Response,
+    tracking_request: BehaviorTrackingRequest
+):
     try:
-        await get_recommendation_service().track_user_behavior(
-            request.user_id, 
-            request.business_id, 
-            request.action
+        # Generate or get session ID for unauthenticated users
+        session_id = tracking_request.session_id
+        if not tracking_request.user_id and not session_id:
+            # Generate new session ID for unauthenticated user
+            session_id = str(uuid.uuid4())
+            # Set session cookie
+            response.set_cookie(
+                key="session_id", 
+                value=session_id, 
+                max_age=30*24*60*60,  # 30 days
+                httponly=True
+            )
+        
+        # Track behavior and get recommendations
+        similar_businesses, recommended_businesses = await get_recommendation_service().track_user_behavior(
+            tracking_request.user_id,
+            session_id,
+            tracking_request.business_id,
+            tracking_request.action
         )
-        return {"message": "Behavior tracked successfully"}
+        
+        return BehaviorTrackingResponse(
+            message="Behavior tracked successfully",
+            similar_businesses=similar_businesses,
+            recommended_businesses=recommended_businesses
+        )
+        
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

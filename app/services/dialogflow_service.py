@@ -1,3 +1,4 @@
+# app/services/dialogflow_service.py
 import os
 import logging
 from typing import Dict, Optional
@@ -33,23 +34,42 @@ class DialogflowService:
         # Initialize OpenAI client for fallback
         self.openai_client = OpenAI(api_key=settings.OPENAI_API_KEY) if settings.OPENAI_API_KEY else None
 
-    async def detect_intent(
-        self, session_id: str, text: str, language_code: str = "en"
-    ) -> Optional[Dict]:
-        """Detect intent from user text using Dialogflow with ChatGPT fallback."""
+    async def detect_intent(self, session_id: str, text: str, language_code: str = "en") -> Optional[Dict]:
         if not self.session_client or not self.project_id:
             return await self._chatgpt_fallback(text)
 
         try:
             session = self.session_client.session_path(self.project_id, session_id)
-
             text_input = dialogflow.TextInput(text=text, language_code=language_code)
             query_input = dialogflow.QueryInput(text=text_input)
 
-            response = self.session_client.detect_intent(
-                request={"session": session, "query_input": query_input}
+            knowledge_base_path = f"projects/{self.project_id}/knowledgeBases/{settings.DIALOGFLOW_KNOWLEDGE_BASE_ID}"
+            query_params = dialogflow.QueryParameters(
+                knowledge_base_names=[knowledge_base_path]
             )
 
+            response = self.session_client.detect_intent(
+                request={
+                    "session": session,
+                    "query_input": query_input,
+                    "query_params": query_params
+                }
+            )
+
+            logger.info(f"Knowledge answers: {response.query_result.knowledge_answers}")
+
+            # Check if KB gave an answer
+            if response.query_result.knowledge_answers.answers:
+                top_answer = response.query_result.knowledge_answers.answers[0]
+                return {
+                    "intent": "knowledge_base_answer",
+                    "confidence": top_answer.match_confidence,
+                    "fulfillment_text": top_answer.answer,
+                    "parameters": {},
+                    "source": "knowledge_base",
+                }
+
+            # Fallback to normal intent
             if (
                 response.query_result.intent_detection_confidence > 0.7
                 and response.query_result.fulfillment_text
@@ -61,8 +81,8 @@ class DialogflowService:
                     "parameters": dict(response.query_result.parameters),
                     "source": "dialogflow",
                 }
-            else:
-                return await self._chatgpt_fallback(text)
+
+            return await self._chatgpt_fallback(text)
 
         except GoogleAPICallError as e:
             logger.error(f"Dialogflow API error: {str(e)}")
@@ -70,6 +90,7 @@ class DialogflowService:
         except Exception as e:
             logger.error(f"Dialogflow service error: {str(e)}")
             return await self._chatgpt_fallback(text)
+
 
     async def _chatgpt_fallback(self, text: str) -> Optional[Dict]:
         """Fallback to ChatGPT when Dialogflow doesn't have a good match."""

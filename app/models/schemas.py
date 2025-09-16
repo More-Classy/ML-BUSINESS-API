@@ -81,9 +81,18 @@ class BehaviorRecommendationRequest(BaseModel):
 
 class BehaviorTrackingRequest(BaseModel):
     user_id: Optional[int] = Field(None, description="User ID for tracking")
+    session_id: Optional[str] = None
     business_id: str = Field(..., description="Business ID that was interacted with")
     action: str = Field(..., description="Type of interaction (click, view, purchase, etc.)")
+class BehaviorTrackingResponse(BaseModel):
+    message: str
+    similar_businesses: List[BusinessResponse] = Field(default_factory=list)
+    recommended_businesses: List[BusinessResponse] = Field(default_factory=list)    
 
+class RecommendationResponse(BaseModel):
+    businesses: List[BusinessResponse] = Field(..., description="List of recommended businesses")
+    source: str = Field(..., description="Recommendation source algorithm")
+    confidence: float = Field(..., ge=0, le=1, description="Confidence score")
 # Tracking schemas
 class InteractionType(str, Enum):
     VIEW = "view"
@@ -92,21 +101,21 @@ class InteractionType(str, Enum):
     SEARCH = "search"
     FAVORITE = "favorite"
 
-class InteractionCreate(BaseModel):
-    user_id: Optional[int] = Field(None, description="User ID if available")
-    session_id: str = Field(..., description="Session identifier")
-    business_id: Optional[str] = Field(None, description="Business ID if applicable")
-    interaction_type: InteractionType = Field(..., description="Type of interaction")
-    element_id: Optional[str] = Field(None, description="UI element identifier")
-    metadata: Optional[Dict[str, Any]] = Field(None, description="Additional interaction data")
-    timestamp: datetime = Field(default_factory=datetime.now, description="Interaction timestamp")
+# class InteractionCreate(BaseModel):
+#     user_id: Optional[int] = Field(None, description="User ID if available")
+#     session_id: str = Field(..., description="Session identifier")
+#     business_id: Optional[str] = Field(None, description="Business ID if applicable")
+#     interaction_type: InteractionType = Field(..., description="Type of interaction")
+#     element_id: Optional[str] = Field(None, description="UI element identifier")
+#     metadata: Optional[Dict[str, Any]] = Field(None, description="Additional interaction data")
+#     timestamp: datetime = Field(default_factory=datetime.now, description="Interaction timestamp")
 
-class InteractionResponse(InteractionCreate):
-    id: int
-    created_at: datetime
+# class InteractionResponse(InteractionCreate):
+#     id: int
+#     created_at: datetime
     
-    class Config:
-        from_attributes = True
+#     class Config:
+#         from_attributes = True
 # AI Onboarding schemas
 class ServiceSuggestionRequest(BaseModel):
     business_name: str = Field(..., min_length=1, max_length=100, description="Name of the business")
