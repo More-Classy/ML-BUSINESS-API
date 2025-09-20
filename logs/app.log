@@ -3473,3 +3473,1337 @@ UnboundLocalError: cannot access local variable 'time' where it is not associate
 2025-09-16 13:59:20,518 - app.main - INFO - Shutting down application...
 2025-09-16 13:59:20,533 - app.database.connection - INFO - Database connections closed
 2025-09-16 13:59:20,533 - app.main - INFO - Application shutdown complete
+2025-09-16 15:37:51,805 - app.main - INFO - Starting up application...
+2025-09-16 15:37:51,843 - app.database.connection - INFO - Database connection established successfully
+2025-09-16 15:37:51,843 - app.main - INFO - Database connected successfully
+2025-09-16 15:37:51,845 - app.main - INFO - DatabaseService initialized
+2025-09-16 15:37:52,722 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-16 15:37:52,722 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-16 15:37:52,722 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-16 15:37:54,145 - app.main - INFO - Preloading businesses from database...
+2025-09-16 15:37:54,145 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-16 15:37:56,246 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-16 15:37:56,262 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-16 15:37:56,262 - app.main - INFO - Application startup complete
+2025-09-17 09:41:16,440 - app.main - INFO - Shutting down application...
+2025-09-17 09:41:16,487 - app.database.connection - INFO - Database connections closed
+2025-09-17 09:41:16,489 - app.main - INFO - Application shutdown complete
+2025-09-17 09:41:46,301 - app.main - INFO - Starting up application...
+2025-09-17 09:41:46,347 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 09:41:46,347 - app.main - INFO - Database connected successfully
+2025-09-17 09:41:46,347 - app.main - INFO - DatabaseService initialized
+2025-09-17 09:41:46,724 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 09:41:46,724 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 09:41:46,724 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 09:41:47,132 - app.main - INFO - Preloading businesses from database...
+2025-09-17 09:41:47,132 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 09:41:48,396 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 09:41:48,402 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 09:41:48,402 - app.main - INFO - Application startup complete
+2025-09-17 09:42:23,528 - app.services.dialogflow_service - ERROR - Dialogflow service error: Unknown field for QueryParameters: knowledge_base_names
+2025-09-17 09:42:25,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 09:42:58,629 - app.services.dialogflow_service - ERROR - Dialogflow service error: Unknown field for QueryParameters: knowledge_base_names
+2025-09-17 09:43:00,649 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 09:57:49,319 - app.main - INFO - Shutting down application...
+2025-09-17 09:57:49,319 - app.database.connection - INFO - Database connections closed
+2025-09-17 09:57:49,319 - app.main - INFO - Application shutdown complete
+2025-09-17 09:58:39,298 - app.main - INFO - Starting up application...
+2025-09-17 09:58:39,314 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 09:58:39,315 - app.main - INFO - Database connected successfully
+2025-09-17 09:58:39,316 - app.main - INFO - DatabaseService initialized
+2025-09-17 09:58:39,610 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 09:58:39,610 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 09:58:39,610 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 09:58:40,105 - app.main - INFO - Preloading businesses from database...
+2025-09-17 09:58:40,105 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 09:58:41,393 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 09:58:41,393 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 09:58:41,393 - app.main - INFO - Application startup complete
+2025-09-17 09:59:07,038 - app.services.dialogflow_service - ERROR - Dialogflow service error: Unknown field for QueryResult: knowledge_answers
+2025-09-17 09:59:08,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 09:59:47,791 - app.services.dialogflow_service - ERROR - Dialogflow service error: Unknown field for QueryResult: knowledge_answers
+2025-09-17 09:59:48,633 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:01:57,369 - app.main - INFO - Shutting down application...
+2025-09-17 10:01:57,369 - app.database.connection - INFO - Database connections closed
+2025-09-17 10:01:57,369 - app.main - INFO - Application shutdown complete
+2025-09-17 10:06:17,559 - app.main - INFO - Starting up application...
+2025-09-17 10:06:17,602 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 10:06:17,602 - app.main - INFO - Database connected successfully
+2025-09-17 10:06:17,602 - app.main - INFO - DatabaseService initialized
+2025-09-17 10:06:17,925 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 10:06:17,925 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 10:06:17,925 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 10:06:18,279 - app.main - INFO - Preloading businesses from database...
+2025-09-17 10:06:18,279 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 10:06:19,308 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 10:06:19,314 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 10:06:19,314 - app.main - INFO - Application startup complete
+2025-09-17 10:06:35,863 - app.services.dialogflow_service - ERROR - Dialogflow service error: 'DialogflowService' object has no attribute 'dialogflow'
+2025-09-17 10:06:37,158 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:07:21,190 - app.services.dialogflow_service - ERROR - Dialogflow service error: 'DialogflowService' object has no attribute 'dialogflow'
+2025-09-17 10:07:23,028 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:09:20,027 - app.main - INFO - Shutting down application...
+2025-09-17 10:09:20,028 - app.database.connection - INFO - Database connections closed
+2025-09-17 10:09:20,028 - app.main - INFO - Application shutdown complete
+2025-09-17 10:12:15,217 - app.main - INFO - Starting up application...
+2025-09-17 10:12:15,270 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 10:12:15,270 - app.main - INFO - Database connected successfully
+2025-09-17 10:12:15,272 - app.main - INFO - DatabaseService initialized
+2025-09-17 10:12:15,612 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 10:12:15,612 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 10:12:15,612 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 10:12:16,153 - app.main - INFO - Preloading businesses from database...
+2025-09-17 10:12:16,155 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 10:12:17,376 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 10:12:17,382 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 10:12:17,382 - app.main - INFO - Application startup complete
+2025-09-17 10:12:42,210 - app.services.dialogflow_service - ERROR - Dialogflow service error: Unknown field for QueryResult: knowledge_answers
+2025-09-17 10:12:43,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:13:33,629 - app.main - INFO - Shutting down application...
+2025-09-17 10:13:33,629 - app.database.connection - INFO - Database connections closed
+2025-09-17 10:13:33,629 - app.main - INFO - Application shutdown complete
+2025-09-17 10:32:33,281 - app.main - INFO - Starting up application...
+2025-09-17 10:32:33,312 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 10:32:33,312 - app.main - INFO - Database connected successfully
+2025-09-17 10:32:33,312 - app.main - INFO - DatabaseService initialized
+2025-09-17 10:32:33,911 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 10:32:33,911 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 10:32:33,911 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 10:32:34,692 - app.main - INFO - Preloading businesses from database...
+2025-09-17 10:32:34,693 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 10:32:36,430 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 10:32:36,436 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 10:32:36,438 - app.main - INFO - Application startup complete
+2025-09-17 10:33:14,991 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 10:33:17,194 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Hi"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Hello! Nice to see you."
+fulfillment_messages {
+  text {
+    text: "Hello! Nice to see you."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 1
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 744
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.2
+    magnitude: 0.2
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTQwNDc5MDk1NTYzNjU4MTk5MDU"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NjIzNjk5NDEzOTY0OTQ3NDU3"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTU4NzgwNTk4NTQ5Mzg1MDUyMTc"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+}
+
+2025-09-17 10:36:03,118 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 10:36:05,134 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Tell me about more popote"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "More Popote empowers ordinary people to become Popote Champions. They help businesses join More Classifieds, post ads, and verify accounts. In return, they earn rewards like cash, points, and ad credits."
+fulfillment_messages {
+  text {
+    text: "More Popote empowers ordinary people to become Popote Champions. They help businesses join More Classifieds, post ads, and verify accounts. In return, they earn rewards like cash, points, and ad credits."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.973710835
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 759
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "Tell me about More Popote"
+    answer: "More Popote empowers ordinary people to become Popote Champions. They help businesses join More Classifieds, post ads, and verify accounts. In return, they earn rewards like cash, points, and ad credits."
+    match_confidence_level: HIGH
+    match_confidence: 0.973710835
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "What is More Popote?"
+    answer: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+    match_confidence_level: HIGH
+    match_confidence: 0.960651278
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MjEzMzQxODgzMjY5NjQ0Mjg5"
+    faq_question: "What is More popote?"
+    answer: "Popote system allows users to earn by registering and verifying businesses across the globe. For more information on popote raise a ticket of inquiry to info@more.co.ke to learn more about the programme."
+    match_confidence_level: HIGH
+    match_confidence: 0.960331619
+  }
+}
+
+2025-09-17 11:30:29,104 - app.main - INFO - Shutting down application...
+2025-09-17 11:30:29,106 - app.database.connection - INFO - Database connections closed
+2025-09-17 11:30:29,106 - app.main - INFO - Application shutdown complete
+2025-09-17 11:31:47,872 - app.main - INFO - Starting up application...
+2025-09-17 11:31:47,885 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 11:31:47,885 - app.main - INFO - Database connected successfully
+2025-09-17 11:31:47,885 - app.main - INFO - DatabaseService initialized
+2025-09-17 11:31:48,251 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 11:31:48,251 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 11:31:48,251 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 11:31:48,699 - app.main - INFO - Preloading businesses from database...
+2025-09-17 11:31:48,699 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 11:31:49,494 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 11:31:49,498 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 11:31:49,498 - app.main - INFO - Application startup complete
+2025-09-17 11:32:07,310 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 11:32:09,570 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Hi"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Hello! Nice to see you."
+fulfillment_messages {
+  text {
+    text: "Hello! Nice to see you."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 1
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 807
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.2
+    magnitude: 0.2
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTQwNDc5MDk1NTYzNjU4MTk5MDU"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NjIzNjk5NDEzOTY0OTQ3NDU3"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTU4NzgwNTk4NTQ5Mzg1MDUyMTc"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+}
+
+2025-09-17 11:32:26,638 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 11:32:28,788 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "What is more popote"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+fulfillment_messages {
+  text {
+    text: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.970575511
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 984
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.1
+    magnitude: 0.1
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "What is More Popote?"
+    answer: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+    match_confidence_level: HIGH
+    match_confidence: 0.970575511
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MjEzMzQxODgzMjY5NjQ0Mjg5"
+    faq_question: "What is More popote?"
+    answer: "Popote system allows users to earn by registering and verifying businesses across the globe. For more information on popote raise a ticket of inquiry to info@more.co.ke to learn more about the programme."
+    match_confidence_level: HIGH
+    match_confidence: 0.970433295
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What is More?"
+    answer: "More Classifieds is a centralized digital platform accessible via https://more.co.ke, designed to offer tailored advertising solutions that enhance brand visibility and audience interaction."
+    match_confidence_level: HIGH
+    match_confidence: 0.960370839
+  }
+}
+
+2025-09-17 11:32:55,374 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 11:32:57,060 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "What are the top businesses in more classifieds"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+fulfillment_messages {
+  text {
+    text: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.965226948
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 250
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What industries or categories can businesses list under on More Classifieds?"
+    answer: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+    match_confidence_level: HIGH
+    match_confidence: 0.965226948
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What services are included under Business Management at More Classifieds?"
+    answer: "Business Management services include assisting clients in creating and optimizing listings for their products or services. The team ensures each business is accurately represented and strategically positioned to reach the right audience."
+    match_confidence_level: HIGH
+    match_confidence: 0.964002788
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What makes More Classifieds stand out in advertising?"
+    answer: "More Classifieds excels in targeted advertising, using data-driven insights, audience segmentation, and behavioral analysis to deliver ads to the most relevant audiences—maximizing engagement and ROI."
+    match_confidence_level: HIGH
+    match_confidence: 0.961362
+  }
+}
+
+2025-09-17 11:33:32,673 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 11:33:34,953 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "What businesses have the highest rating"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+fulfillment_messages {
+  text {
+    text: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.446212143
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 767
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.3
+    magnitude: 0.3
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What industries or categories can businesses list under on More Classifieds?"
+    answer: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+    match_confidence_level: LOW
+    match_confidence: 0.446212143
+  }
+}
+
+2025-09-17 13:48:27,960 - app.main - INFO - Shutting down application...
+2025-09-17 13:48:27,970 - app.database.connection - INFO - Database connections closed
+2025-09-17 13:48:27,970 - app.main - INFO - Application shutdown complete
+2025-09-17 13:48:37,540 - app.main - INFO - Starting up application...
+2025-09-17 13:48:37,549 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 13:48:37,550 - app.main - INFO - Database connected successfully
+2025-09-17 13:48:37,550 - app.main - INFO - DatabaseService initialized
+2025-09-17 13:48:37,881 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 13:48:37,881 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 13:48:37,881 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 13:48:38,283 - app.main - INFO - Preloading businesses from database...
+2025-09-17 13:48:38,283 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 13:48:39,004 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 13:48:39,012 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 13:48:39,012 - app.main - INFO - Application startup complete
+2025-09-17 13:48:49,064 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 13:48:51,361 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "What businesses have the highest rating"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+fulfillment_messages {
+  text {
+    text: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.446212143
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 777
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.3
+    magnitude: 0.3
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What industries or categories can businesses list under on More Classifieds?"
+    answer: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+    match_confidence_level: LOW
+    match_confidence: 0.446212143
+  }
+}
+
+2025-09-17 13:50:14,373 - app.main - INFO - Shutting down application...
+2025-09-17 13:50:14,375 - app.database.connection - INFO - Database connections closed
+2025-09-17 13:50:14,375 - app.main - INFO - Application shutdown complete
+2025-09-17 13:50:54,003 - app.main - INFO - Starting up application...
+2025-09-17 13:50:54,022 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 13:50:54,022 - app.main - INFO - Database connected successfully
+2025-09-17 13:50:54,022 - app.main - INFO - DatabaseService initialized
+2025-09-17 13:50:54,318 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 13:50:54,318 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 13:50:54,318 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 13:50:54,758 - app.main - INFO - Preloading businesses from database...
+2025-09-17 13:50:54,758 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 13:50:55,483 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 13:50:55,486 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 13:50:55,487 - app.main - INFO - Application startup complete
+2025-09-17 13:51:46,685 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 13:51:50,142 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Suggest to me dental hospitals available on the site"
+language_code: "en"
+action: "smalltalk.user.needs_advice"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "I’m all ears. What do you need advice on?"
+fulfillment_messages {
+  text {
+    text: "I’m all ears. What do you need advice on?"
+  }
+}
+intent {
+}
+intent_detection_confidence: 0.613268733
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 2224
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+
+2025-09-17 13:51:53,852 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 13:51:55,648 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 13:53:26,268 - app.main - INFO - Shutting down application...
+2025-09-17 13:53:26,268 - app.database.connection - INFO - Database connections closed
+2025-09-17 13:53:26,268 - app.main - INFO - Application shutdown complete
+2025-09-17 13:56:23,783 - app.main - INFO - Starting up application...
+2025-09-17 13:56:23,809 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 13:56:23,809 - app.main - INFO - Database connected successfully
+2025-09-17 13:56:23,809 - app.main - INFO - DatabaseService initialized
+2025-09-17 13:56:24,137 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 13:56:24,137 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 13:56:24,137 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 13:56:24,522 - app.main - INFO - Preloading businesses from database...
+2025-09-17 13:56:24,522 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 13:56:25,214 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 13:56:25,217 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 13:56:25,218 - app.main - INFO - Application startup complete
+2025-09-17 13:56:33,105 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 13:56:35,101 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Which top business offers furniture products"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Business Management services include assisting clients in creating and optimizing listings for their products or services. The team ensures each business is accurately represented and strategically positioned to reach the right audience."
+fulfillment_messages {
+  text {
+    text: "Business Management services include assisting clients in creating and optimizing listings for their products or services. The team ensures each business is accurately represented and strategically positioned to reach the right audience."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.478507757
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 766
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.4
+    magnitude: 0.4
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What services are included under Business Management at More Classifieds?"
+    answer: "Business Management services include assisting clients in creating and optimizing listings for their products or services. The team ensures each business is accurately represented and strategically positioned to reach the right audience."
+    match_confidence_level: LOW
+    match_confidence: 0.478507757
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How can I get started with listing my business on More Classifieds?"
+    answer: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+    match_confidence_level: LOW
+    match_confidence: 0.323973984
+  }
+}
+
+2025-09-17 13:59:24,453 - app.main - INFO - Shutting down application...
+2025-09-17 13:59:24,454 - app.database.connection - INFO - Database connections closed
+2025-09-17 13:59:24,454 - app.main - INFO - Application shutdown complete
+2025-09-17 14:01:39,637 - app.main - INFO - Starting up application...
+2025-09-17 14:01:39,661 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 14:01:39,661 - app.main - INFO - Database connected successfully
+2025-09-17 14:01:39,662 - app.main - INFO - DatabaseService initialized
+2025-09-17 14:01:39,997 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 14:01:39,999 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 14:01:39,999 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 14:01:40,376 - app.main - INFO - Preloading businesses from database...
+2025-09-17 14:01:40,376 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 14:01:41,028 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 14:01:41,032 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 14:01:41,033 - app.main - INFO - Application startup complete
+2025-09-17 14:02:32,211 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 14:02:35,746 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "How many top businesses are on more"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Businesses get an easy onboarding process, local support from champions, and faster verification."
+fulfillment_messages {
+  text {
+    text: "Businesses get an easy onboarding process, local support from champions, and faster verification."
+  }
+}
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.217352465
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 2176
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.2
+    magnitude: 0.2
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "What are the benefits for businesses?"
+    answer: "Businesses get an easy onboarding process, local support from champions, and faster verification."
+    match_confidence_level: LOW
+    match_confidence: 0.217352465
+  }
+}
+
+2025-09-17 14:02:35,746 - app.services.dialogflow_service - INFO - Low KB confidence (0.2173524647951126). Trying homepage context...
+2025-09-17 14:02:39,319 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 14:02:41,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 14:04:18,825 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 14:04:21,023 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "What does Wendani mattress shop offer on more classifieds"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "The agency benefits from rapid expansion of listings, improved trust, and low-cost community-driven marketing."
+fulfillment_messages {
+  text {
+    text: "The agency benefits from rapid expansion of listings, improved trust, and low-cost community-driven marketing."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.667974889
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 974
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "What are the benefits for More Classifieds?"
+    answer: "The agency benefits from rapid expansion of listings, improved trust, and low-cost community-driven marketing."
+    match_confidence_level: MEDIUM
+    match_confidence: 0.667974889
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What makes More Classifieds stand out in advertising?"
+    answer: "More Classifieds excels in targeted advertising, using data-driven insights, audience segmentation, and behavioral analysis to deliver ads to the most relevant audiences—maximizing engagement and ROI."
+    match_confidence_level: LOW
+    match_confidence: 0.406699181
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What makes the leadership team at More Classifieds Agency effective?"
+    answer: "The leadership team combines deep expertise, strategic vision, and a commitment to excellence. Their collaborative approach drives innovation and ensures the agency remains a competitive and reliable industry leader."
+    match_confidence_level: LOW
+    match_confidence: 0.378566623
+  }
+}
+
+2025-09-17 14:04:21,023 - app.services.dialogflow_service - INFO - Low KB confidence (0.6679748892784119). Trying homepage context...
+2025-09-17 14:04:24,606 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 14:04:27,626 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 14:08:29,094 - app.main - INFO - Shutting down application...
+2025-09-17 14:08:29,094 - app.database.connection - INFO - Database connections closed
+2025-09-17 14:08:29,094 - app.main - INFO - Application shutdown complete
+2025-09-17 14:12:55,301 - app.main - INFO - Starting up application...
+2025-09-17 14:12:55,307 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 14:12:55,307 - app.main - INFO - Database connected successfully
+2025-09-17 14:12:55,307 - app.main - INFO - DatabaseService initialized
+2025-09-17 14:12:55,709 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 14:12:55,709 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 14:12:55,709 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 14:12:56,106 - app.main - INFO - Preloading businesses from database...
+2025-09-17 14:12:56,107 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 14:12:56,825 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 14:12:56,828 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 14:12:56,829 - app.main - INFO - Application startup complete
+2025-09-17 14:13:23,189 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 14:13:24,377 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Where can I buy furniture?"
+language_code: "en"
+parameters {
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+
+2025-09-17 14:13:27,547 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 14:13:27,553 - app.services.dialogflow_service - ERROR - Failed to fetch homepage business data: DialogflowService._normalize() takes 1 positional argument but 2 were given
+2025-09-17 14:13:29,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 14:14:32,836 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 14:14:37,296 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "How many top businesses are on more"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Businesses get an easy onboarding process, local support from champions, and faster verification."
+fulfillment_messages {
+  text {
+    text: "Businesses get an easy onboarding process, local support from champions, and faster verification."
+  }
+}
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.217352465
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 2090
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.2
+    magnitude: 0.2
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "What are the benefits for businesses?"
+    answer: "Businesses get an easy onboarding process, local support from champions, and faster verification."
+    match_confidence_level: LOW
+    match_confidence: 0.217352465
+  }
+}
+
+2025-09-17 14:14:37,296 - app.services.dialogflow_service - INFO - Low KB confidence (0.2173524647951126). Trying homepage context...
+2025-09-17 14:14:41,105 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 14:14:41,110 - app.services.dialogflow_service - ERROR - Failed to fetch homepage business data: DialogflowService._normalize() takes 1 positional argument but 2 were given
+2025-09-17 14:14:42,573 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 14:17:28,496 - app.main - INFO - Shutting down application...
+2025-09-17 14:17:28,496 - app.database.connection - INFO - Database connections closed
+2025-09-17 14:17:28,496 - app.main - INFO - Application shutdown complete
+2025-09-17 14:17:40,935 - app.main - INFO - Starting up application...
+2025-09-17 14:17:40,944 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 14:17:40,944 - app.main - INFO - Database connected successfully
+2025-09-17 14:17:40,944 - app.main - INFO - DatabaseService initialized
+2025-09-17 14:17:41,358 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 14:17:41,358 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 14:17:41,358 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 14:17:41,816 - app.main - INFO - Preloading businesses from database...
+2025-09-17 14:17:41,817 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 14:17:42,570 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 14:17:42,575 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 14:17:42,575 - app.main - INFO - Application startup complete
+2025-09-17 14:17:45,079 - app.main - INFO - Shutting down application...
+2025-09-17 14:17:45,079 - app.database.connection - INFO - Database connections closed
+2025-09-17 14:17:45,079 - app.main - INFO - Application shutdown complete
+2025-09-17 14:17:51,367 - app.main - INFO - Starting up application...
+2025-09-17 14:17:51,384 - app.database.connection - INFO - Database connection established successfully
+2025-09-17 14:17:51,384 - app.main - INFO - Database connected successfully
+2025-09-17 14:17:51,384 - app.main - INFO - DatabaseService initialized
+2025-09-17 14:17:51,715 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-17 14:17:51,716 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-17 14:17:51,716 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-17 14:17:52,296 - app.main - INFO - Preloading businesses from database...
+2025-09-17 14:17:52,297 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-17 14:17:53,001 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-17 14:17:53,005 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-17 14:17:53,005 - app.main - INFO - Application startup complete
+2025-09-17 14:19:11,474 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 14:19:13,481 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Which businesses on more classifieds can i get fashion for men or women"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+fulfillment_messages {
+  text {
+    text: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.732467592
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 704
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What industries or categories can businesses list under on More Classifieds?"
+    answer: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+    match_confidence_level: MEDIUM
+    match_confidence: 0.732467592
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How can I get started with listing my business on More Classifieds?"
+    answer: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+    match_confidence_level: MEDIUM
+    match_confidence: 0.639298499
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What services are included under Business Management at More Classifieds?"
+    answer: "Business Management services include assisting clients in creating and optimizing listings for their products or services. The team ensures each business is accurately represented and strategically positioned to reach the right audience."
+    match_confidence_level: LOW
+    match_confidence: 0.488678038
+  }
+}
+
+2025-09-17 14:19:13,481 - app.services.dialogflow_service - INFO - Low KB confidence (0.7324675917625427). Trying homepage context...
+2025-09-17 14:20:08,054 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-17 14:20:09,273 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "What does uzima collection offer as a business on more"
+language_code: "en"
+parameters {
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: -0.1
+    magnitude: 0.1
+  }
+}
+
+2025-09-17 14:20:12,981 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 14:20:15,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 14:23:27,897 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/business_d1f180b2-90fc-4981-a1ad-c7bd6c42d477
+2025-09-17 14:23:30,075 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "what does this business offer"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "It makes joining More Classifieds easy, gives them local champions for support, and ensures faster trust verification."
+fulfillment_messages {
+  text {
+    text: "It makes joining More Classifieds easy, gives them local champions for support, and ensures faster trust verification."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.961075962
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 1008
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: -0.2
+    magnitude: 0.2
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "How does this help small businesses?"
+    answer: "It makes joining More Classifieds easy, gives them local champions for support, and ensures faster trust verification."
+    match_confidence_level: HIGH
+    match_confidence: 0.961075962
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTU3NjU3NTEzMzkyMzA5NTM0NzM"
+    faq_question: "How does it support small businesses?"
+    answer: "By giving vendors easy integration, delivery management, and access to more customers."
+    match_confidence_level: MEDIUM
+    match_confidence: 0.671768725
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "How does More Popote work?"
+    answer: "It’s simple! You sign up as a champion, get a unique ID/QR code, then start helping businesses register, list ads, and verify their info. Each activity earns you points you can redeem for rewards."
+    match_confidence_level: LOW
+    match_confidence: 0.217146903
+  }
+}
+
+2025-09-17 14:24:30,565 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/business_d1f180b2-90fc-4981-a1ad-c7bd6c42d477
+2025-09-17 14:24:32,861 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "which businesses is top for medical services"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Businesses get an easy onboarding process, local support from champions, and faster verification."
+fulfillment_messages {
+  text {
+    text: "Businesses get an easy onboarding process, local support from champions, and faster verification."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.466509491
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 935
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.5
+    magnitude: 0.5
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "What are the benefits for businesses?"
+    answer: "Businesses get an easy onboarding process, local support from champions, and faster verification."
+    match_confidence_level: LOW
+    match_confidence: 0.466509491
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What industries or categories can businesses list under on More Classifieds?"
+    answer: "Businesses can list under a wide range of categories such as Restaurants, Properties, Auto Services, Health & Medical, Malls, and Stores, among others—making it a versatile platform for diverse industries."
+    match_confidence_level: LOW
+    match_confidence: 0.213401362
+  }
+}
+
+2025-09-17 14:24:32,861 - app.services.dialogflow_service - INFO - Low KB confidence (0.46650949120521545). Trying homepage context...
+2025-09-17 14:24:36,568 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 14:37:45,125 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/business_d1f180b2-90fc-4981-a1ad-c7bd6c42d477
+2025-09-17 14:37:49,024 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "what businesses can you recommend for someone shopping electronics"
+language_code: "en"
+action: "smalltalk.user.needs_advice"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "I’m all ears. What do you need advice on?"
+fulfillment_messages {
+  text {
+    text: "I’m all ears. What do you need advice on?"
+  }
+}
+intent {
+}
+intent_detection_confidence: 0.87116605
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 2587
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.2
+    magnitude: 0.2
+  }
+}
+
+2025-09-17 14:37:52,406 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 14:40:06,189 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/business_d1f180b2-90fc-4981-a1ad-c7bd6c42d477
+2025-09-17 14:40:07,370 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "suggest to me an automart businesses i can take my car for service"
+language_code: "en"
+parameters {
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.2
+    magnitude: 0.2
+  }
+}
+
+2025-09-17 14:40:11,142 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 14:40:12,856 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 14:40:52,212 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/business_d1f180b2-90fc-4981-a1ad-c7bd6c42d477
+2025-09-17 14:40:53,336 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "which business can i buy toyota spare parts from?"
+language_code: "en"
+parameters {
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+
+2025-09-17 14:40:57,335 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-17 14:40:59,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 14:41:35,569 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/business_d1f180b2-90fc-4981-a1ad-c7bd6c42d477
+2025-09-17 14:41:37,586 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "which business is offering best healthcare services"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Business Management services include assisting clients in creating and optimizing listings for their products or services. The team ensures each business is accurately represented and strategically positioned to reach the right audience."
+fulfillment_messages {
+  text {
+    text: "Business Management services include assisting clients in creating and optimizing listings for their products or services. The team ensures each business is accurately represented and strategically positioned to reach the right audience."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.776287794
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 907
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.7
+    magnitude: 0.7
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What services are included under Business Management at More Classifieds?"
+    answer: "Business Management services include assisting clients in creating and optimizing listings for their products or services. The team ensures each business is accurately represented and strategically positioned to reach the right audience."
+    match_confidence_level: HIGH
+    match_confidence: 0.776287794
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "Who can benefit from your services?"
+    answer: "Our services are ideally suited for Small and Medium Enterprises (SMEs), e-commerce brands, and local businesses looking to strengthen their market presence. We cater to a wide range of industries by offering cost-effective, data-driven advertising solutions that are both impactful and scalable."
+    match_confidence_level: LOW
+    match_confidence: 0.392639726
+  }
+}
+
+2025-09-17 15:04:47,840 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/business_d1f180b2-90fc-4981-a1ad-c7bd6c42d477
+2025-09-17 15:04:50,128 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "which business is leading in logistics and transportation"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Anyone above 18 years of age, of sound mind and ability can use the service. However usage of the service is as per the terms and conditions spelled in the policy document available for public on url https://more.co.ke/policy/terms"
+fulfillment_messages {
+  text {
+    text: "Anyone above 18 years of age, of sound mind and ability can use the service. However usage of the service is as per the terms and conditions spelled in the policy document available for public on url https://more.co.ke/policy/terms"
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.384138346
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 1143
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.2
+    magnitude: 0.2
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MjEzMzQxODgzMjY5NjQ0Mjg5"
+    faq_question: "Who can use more business?"
+    answer: "Anyone above 18 years of age, of sound mind and ability can use the service. However usage of the service is as per the terms and conditions spelled in the policy document available for public on url https://more.co.ke/policy/terms"
+    match_confidence_level: LOW
+    match_confidence: 0.384138346
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What services are included under Business Management at More Classifieds?"
+    answer: "Business Management services include assisting clients in creating and optimizing listings for their products or services. The team ensures each business is accurately represented and strategically positioned to reach the right audience."
+    match_confidence_level: LOW
+    match_confidence: 0.218436241
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How can I onboard a business on More?"
+    answer: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+    match_confidence_level: LOW
+    match_confidence: 0.216846779
+  }
+}
+
+2025-09-17 15:04:50,129 - app.services.dialogflow_service - INFO - Low KB confidence (0.3841383457183838). Trying homepage context...
+2025-09-17 15:04:53,658 - httpx - INFO - HTTP Request: POST https://more.co.ke/dotnet-api/api/Business/home-listing "HTTP/1.1 200 OK"
+2025-09-19 19:56:55,203 - app.main - INFO - Starting up application...
+2025-09-19 19:56:55,249 - app.database.connection - INFO - Database connection established successfully
+2025-09-19 19:56:55,250 - app.main - INFO - Database connected successfully
+2025-09-19 19:56:55,250 - app.main - INFO - DatabaseService initialized
+2025-09-19 19:56:55,750 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-19 19:56:55,750 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-19 19:56:55,750 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-19 19:56:56,359 - app.main - INFO - Preloading businesses from database...
+2025-09-19 19:56:56,359 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-19 19:56:57,692 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-19 19:56:57,699 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-19 19:56:57,701 - app.main - INFO - Application startup complete
+2025-09-19 19:57:45,393 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-19 19:57:47,806 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Hello"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Hi there! How’s your day going?"
+fulfillment_messages {
+  text {
+    text: "Hi there! How’s your day going?"
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 1
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 745
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.2
+    magnitude: 0.2
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTQwNDc5MDk1NTYzNjU4MTk5MDU"
+    faq_question: "Hello"
+    answer: "Hi there! How’s your day going?"
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTU4NzgwNTk4NTQ5Mzg1MDUyMTc"
+    faq_question: "Hello"
+    answer: "Hi there! How’s your day going?"
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTQwNDc5MDk1NTYzNjU4MTk5MDU"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 0.974609077
+  }
+}
+
+2025-09-19 20:09:53,330 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-19 20:09:55,241 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-19 20:09:55,282 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-19 20:09:57,224 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-19 20:30:32,536 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-19 20:30:34,296 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-19 20:30:34,346 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-19 20:30:36,110 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-19 20:33:12,403 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-09-19 20:33:14,997 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "What is more popote"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+fulfillment_messages {
+  text {
+    text: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.970575511
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 1050
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.1
+    magnitude: 0.1
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "What is More Popote?"
+    answer: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+    match_confidence_level: HIGH
+    match_confidence: 0.970575511
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MjEzMzQxODgzMjY5NjQ0Mjg5"
+    faq_question: "What is More popote?"
+    answer: "Popote system allows users to earn by registering and verifying businesses across the globe. For more information on popote raise a ticket of inquiry to info@more.co.ke to learn more about the programme."
+    match_confidence_level: HIGH
+    match_confidence: 0.970433295
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What is More?"
+    answer: "More Classifieds is a centralized digital platform accessible via https://more.co.ke, designed to offer tailored advertising solutions that enhance brand visibility and audience interaction."
+    match_confidence_level: HIGH
+    match_confidence: 0.960370839
+  }
+}
+
+2025-09-19 21:02:07,180 - app.main - INFO - Shutting down application...
+2025-09-19 21:02:07,180 - app.database.connection - INFO - Database connections closed
+2025-09-19 21:02:07,180 - app.main - INFO - Application shutdown complete
+2025-09-20 21:00:58,438 - app.main - INFO - Starting up application...
+2025-09-20 21:00:58,488 - app.database.connection - ERROR - Failed to connect to database: (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+2025-09-20 21:00:58,488 - app.main - ERROR - Failed to start application: (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+2025-09-20 21:01:32,939 - app.main - INFO - Starting up application...
+2025-09-20 21:01:32,992 - app.database.connection - ERROR - Failed to connect to database: (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+2025-09-20 21:01:32,992 - app.main - ERROR - Failed to start application: (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+2025-09-20 21:03:04,722 - app.main - INFO - Starting up application...
+2025-09-20 21:03:04,738 - app.database.connection - INFO - Database connection established successfully
+2025-09-20 21:03:04,738 - app.main - INFO - Database connected successfully
+2025-09-20 21:03:04,740 - app.main - INFO - DatabaseService initialized
+2025-09-20 21:03:05,203 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-20 21:03:05,203 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-20 21:03:05,215 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-20 21:03:05,254 - app.services.dialogflow_service - ERROR - Failed to initialize Dialogflow client: File ./credentials/shared_seperate.json was not found.
+2025-09-20 21:03:05,706 - app.main - INFO - Preloading businesses from database...
+2025-09-20 21:03:05,706 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-20 21:03:06,804 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-20 21:03:06,807 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-20 21:03:06,807 - app.main - INFO - Application startup complete
+2025-09-20 21:03:49,257 - app.main - INFO - Shutting down application...
+2025-09-20 21:03:49,257 - app.database.connection - INFO - Database connections closed
+2025-09-20 21:03:49,257 - app.main - INFO - Application shutdown complete
+2025-09-20 21:05:17,608 - app.main - INFO - Starting up application...
+2025-09-20 21:05:17,657 - app.database.connection - INFO - Database connection established successfully
+2025-09-20 21:05:17,657 - app.main - INFO - Database connected successfully
+2025-09-20 21:05:17,657 - app.main - INFO - DatabaseService initialized
+2025-09-20 21:05:18,164 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-20 21:05:18,164 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-20 21:05:18,164 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-20 21:05:18,178 - app.services.dialogflow_service - ERROR - Failed to initialize Dialogflow client: File ./credentials/shared_seperate.json was not found.
+2025-09-20 21:05:18,660 - app.main - INFO - Preloading businesses from database...
+2025-09-20 21:05:18,660 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-20 21:05:19,657 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-20 21:05:19,665 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-20 21:05:19,665 - app.main - INFO - Application startup complete
+2025-09-20 21:07:34,650 - app.main - INFO - Shutting down application...
+2025-09-20 21:07:34,650 - app.database.connection - INFO - Database connections closed
+2025-09-20 21:07:34,650 - app.main - INFO - Application shutdown complete

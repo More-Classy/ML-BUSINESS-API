@@ -73,7 +73,7 @@ app = FastAPI(
     title=settings.PROJECT_NAME,
     description="Centralized ML Hub for Business Recommendations, AI Support, and Business Onboarding",
     version="1.0.0",
-    docs_url="/docs",
+    docs_url="/",
     redoc_url="/redoc",
     lifespan=lifespan
 )

@@ -1,3 +1,2 @@
 .env
-.env.example
 /credentials/dialogflow-service-account.json
