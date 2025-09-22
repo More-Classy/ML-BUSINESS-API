@@ -31,11 +31,11 @@ class DatabaseService:
                 GROUP_CONCAT(DISTINCT p.photoURL) as photos,
                 COALESCE(AVG(r.rating), 0) as rating,
                 COUNT(r.reviewID) as review_count
-            FROM businesses b
-            LEFT JOIN businessSubCategories bs ON b.businessID = bs.businessID
-            LEFT JOIN subCategories s ON bs.subCategoryID = s.subCategoryID
-            LEFT JOIN businessPhotos p ON b.businessID = p.businessID
-            LEFT JOIN reviews r ON b.businessID = r.businessID
+            FROM Businesses b
+            LEFT JOIN BusinessSubCategories bs ON b.businessID = bs.businessID
+            LEFT JOIN SubCategories s ON bs.subCategoryID = s.subCategoryID
+            LEFT JOIN BusinessPhotos p ON b.businessID = p.businessID
+            LEFT JOIN Reviews r ON b.businessID = r.businessID
             GROUP BY b.businessID
             """
 
