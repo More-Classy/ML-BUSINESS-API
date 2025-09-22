@@ -4807,3 +4807,110 @@ knowledge_answers {
 2025-09-20 21:07:34,650 - app.main - INFO - Shutting down application...
 2025-09-20 21:07:34,650 - app.database.connection - INFO - Database connections closed
 2025-09-20 21:07:34,650 - app.main - INFO - Application shutdown complete
+2025-09-22 07:15:46,368 - app.main - INFO - Starting up application...
+2025-09-22 07:15:46,383 - app.database.connection - ERROR - Failed to connect to database: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2025-09-22 07:15:46,383 - app.main - ERROR - Failed to start application: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2025-09-22 07:16:26,084 - app.main - INFO - Starting up application...
+2025-09-22 07:16:26,086 - app.database.connection - INFO - Database connection established successfully
+2025-09-22 07:16:26,087 - app.main - INFO - Database connected successfully
+2025-09-22 07:16:26,087 - app.main - INFO - DatabaseService initialized
+2025-09-22 07:16:26,127 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 07:16:26,127 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 07:16:26,127 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 07:16:26,128 - app.services.dialogflow_service - ERROR - Failed to initialize Dialogflow client: File ./credentials/shared_seperate.json was not found.
+2025-09-22 07:16:26,176 - app.main - INFO - Preloading businesses from database...
+2025-09-22 07:16:26,176 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 07:16:26,178 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 07:16:26,178 - app.main - INFO - Successfully preloaded 0 businesses from database
+2025-09-22 07:16:26,179 - app.main - INFO - Application startup complete
+2025-09-22 08:15:31,278 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:15:31,290 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:15:31,290 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:15:31,291 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:15:31,291 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:15:31,292 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:16:41,119 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:16:41,121 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:16:41,122 - app.services.recommendation_service - INFO - Filtering 0 businesses based on preferences: interests=['engineering', 'health'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 08:16:41,122 - app.services.recommendation_service - WARNING - No businesses available for recommendations
+2025-09-22 08:17:05,564 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:17:05,565 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:17:05,566 - app.services.recommendation_service - INFO - Filtering 0 businesses based on preferences: interests=['fashion', 'real estate'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 08:17:05,566 - app.services.recommendation_service - WARNING - No businesses available for recommendations
+2025-09-22 08:17:13,490 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:17:13,491 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:17:13,491 - app.services.recommendation_service - INFO - Filtering 0 businesses based on preferences: interests=['fashion', 'real estate'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 08:17:13,491 - app.services.recommendation_service - WARNING - No businesses available for recommendations
+2025-09-22 08:17:28,679 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:17:28,680 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:17:28,680 - app.services.recommendation_service - INFO - Filtering 0 businesses based on preferences: interests=['fashion', 'real estate'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 08:17:28,680 - app.services.recommendation_service - WARNING - No businesses available for recommendations
+2025-09-22 08:17:41,076 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:17:41,077 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:17:41,077 - app.services.recommendation_service - INFO - Filtering 0 businesses based on preferences: interests=['fashion', 'real estate'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 08:17:41,078 - app.services.recommendation_service - WARNING - No businesses available for recommendations
+2025-09-22 08:18:31,336 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:18:31,337 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:18:31,337 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:18:31,337 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:18:31,338 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:18:31,338 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:19:32,762 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:19:32,763 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:19:32,763 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:19:32,764 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:19:32,764 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:19:32,764 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:19:56,968 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:19:56,969 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:19:56,969 - app.services.recommendation_service - INFO - Filtering 0 businesses based on preferences: interests=['fashion', 'real estate', 'tech'] location='nairobi' price_range=<PriceRange.BUDGET: 'budget'>
+2025-09-22 08:19:56,969 - app.services.recommendation_service - WARNING - No businesses available for recommendations
+2025-09-22 08:20:27,767 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:20:27,768 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:20:27,768 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:20:27,769 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 08:20:27,769 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 08:20:27,770 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 10:49:35,311 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 10:49:35,312 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 10:49:35,312 - app.services.recommendation_service - INFO - Filtering 0 businesses based on preferences: interests=['health', 'fashion', 'tech'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 10:49:35,312 - app.services.recommendation_service - WARNING - No businesses available for recommendations
+2025-09-22 10:50:39,647 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 10:50:39,648 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 10:50:39,648 - app.services.recommendation_service - INFO - Filtering 0 businesses based on preferences: interests=['health', 'fashion', 'tech'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 10:50:39,649 - app.services.recommendation_service - WARNING - No businesses available for recommendations
+2025-09-22 11:04:51,458 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 11:04:51,459 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 11:04:51,459 - app.services.recommendation_service - INFO - Filtering 0 businesses based on preferences: interests=['health', 'fashion', 'tech'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 11:04:51,459 - app.services.recommendation_service - WARNING - No businesses available for recommendations
+2025-09-22 11:05:19,115 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 11:05:19,116 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 11:05:19,116 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 11:05:19,117 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 11:05:19,117 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 11:05:19,118 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 11:06:43,483 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 11:06:43,484 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 11:06:43,484 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 11:06:43,485 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 11:06:43,485 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 11:06:43,485 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 12:12:09,544 - app.main - INFO - Shutting down application...
+2025-09-22 12:12:09,545 - app.database.connection - INFO - Database connections closed
+2025-09-22 12:12:09,545 - app.main - INFO - Application shutdown complete
+2025-09-22 12:21:29,017 - app.main - INFO - Starting up application...
+2025-09-22 12:21:29,020 - app.database.connection - INFO - Database connection established successfully
+2025-09-22 12:21:29,021 - app.main - INFO - Database connected successfully
+2025-09-22 12:21:29,021 - app.main - INFO - DatabaseService initialized
+2025-09-22 12:21:29,084 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 12:21:29,085 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 12:21:29,085 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 12:21:29,086 - app.services.dialogflow_service - ERROR - Failed to initialize Dialogflow client: File ./credentials/shared_seperate.json was not found.
+2025-09-22 12:21:29,143 - app.main - INFO - Preloading businesses from database...
+2025-09-22 12:21:29,143 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:21:29,148 - app.services.database_service - ERROR - Error fetching businesses from database: (1146, "Table 'more.businesses' doesn't exist")
+2025-09-22 12:21:29,148 - app.main - INFO - Successfully preloaded 0 businesses from database
+2025-09-22 12:21:29,148 - app.main - INFO - Application startup complete
+2025-09-22 12:23:11,670 - app.main - INFO - Shutting down application...
+2025-09-22 12:23:11,670 - app.database.connection - INFO - Database connections closed
+2025-09-22 12:23:11,670 - app.main - INFO - Application shutdown complete
