@@ -4914,3 +4914,426 @@ knowledge_answers {
 2025-09-22 12:23:11,670 - app.main - INFO - Shutting down application...
 2025-09-22 12:23:11,670 - app.database.connection - INFO - Database connections closed
 2025-09-22 12:23:11,670 - app.main - INFO - Application shutdown complete
+2025-09-22 12:30:35,877 - app.main - INFO - Starting up application...
+2025-09-22 12:30:35,879 - app.database.connection - INFO - Database connection established successfully
+2025-09-22 12:30:35,879 - app.main - INFO - Database connected successfully
+2025-09-22 12:30:35,880 - app.main - INFO - DatabaseService initialized
+2025-09-22 12:30:35,942 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 12:30:35,942 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 12:30:35,942 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 12:30:35,943 - app.services.dialogflow_service - ERROR - Failed to initialize Dialogflow client: File ./credentials/shared_seperate.json was not found.
+2025-09-22 12:30:35,992 - app.main - INFO - Preloading businesses from database...
+2025-09-22 12:30:35,993 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:30:36,717 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 12:30:36,724 - app.main - INFO - Successfully preloaded 8503 businesses from database
+2025-09-22 12:30:36,724 - app.main - INFO - Application startup complete
+2025-09-22 12:33:12,153 - app.main - INFO - Shutting down application...
+2025-09-22 12:33:12,153 - app.database.connection - INFO - Database connections closed
+2025-09-22 12:33:12,154 - app.main - INFO - Application shutdown complete
+2025-09-22 12:39:48,985 - app.main - INFO - Starting up application...
+2025-09-22 12:39:48,986 - app.database.connection - INFO - Database connection established successfully
+2025-09-22 12:39:48,987 - app.main - INFO - Database connected successfully
+2025-09-22 12:39:48,987 - app.main - INFO - DatabaseService initialized
+2025-09-22 12:39:49,032 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 12:39:49,033 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 12:39:49,033 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 12:39:49,034 - app.services.dialogflow_service - ERROR - Failed to initialize Dialogflow client: File ./credentials/dialogflow-service-account.json was not found.
+2025-09-22 12:39:49,108 - app.main - INFO - Preloading businesses from database...
+2025-09-22 12:39:49,109 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:39:49,752 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 12:39:49,756 - app.main - INFO - Successfully preloaded 8503 businesses from database
+2025-09-22 12:39:49,757 - app.main - INFO - Application startup complete
+2025-09-22 12:40:14,809 - app.main - INFO - Shutting down application...
+2025-09-22 12:40:14,809 - app.database.connection - INFO - Database connections closed
+2025-09-22 12:40:14,809 - app.main - INFO - Application shutdown complete
+2025-09-22 12:45:25,261 - app.main - INFO - Starting up application...
+2025-09-22 12:45:25,263 - app.database.connection - INFO - Database connection established successfully
+2025-09-22 12:45:25,263 - app.main - INFO - Database connected successfully
+2025-09-22 12:45:25,263 - app.main - INFO - DatabaseService initialized
+2025-09-22 12:45:25,307 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 12:45:25,307 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 12:45:25,307 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 12:45:25,439 - app.main - INFO - Preloading businesses from database...
+2025-09-22 12:45:25,440 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:45:26,104 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 12:45:26,109 - app.main - INFO - Successfully preloaded 8503 businesses from database
+2025-09-22 12:45:26,109 - app.main - INFO - Application startup complete
+2025-09-22 12:46:32,996 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:46:33,764 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 12:46:33,769 - app.services.recommendation_service - INFO - Filtering 8503 businesses based on preferences: interests=['health', 'fashion', 'tech'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 12:46:33,789 - app.services.recommendation_service - INFO - Found 605 businesses matching preferences
+2025-09-22 12:46:33,790 - app.services.recommendation_service - INFO - Returning 605 unique businesses after filtering
+2025-09-22 12:46:43,868 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:46:44,577 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 12:46:44,610 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:46:45,290 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 12:47:37,473 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:47:38,159 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 12:47:38,178 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:47:38,886 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 12:52:35,029 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:52:35,746 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 12:52:35,767 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 12:52:36,644 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 13:09:13,174 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 13:09:13,814 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 13:09:13,834 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 13:09:14,567 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 13:10:28,722 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 13:10:29,494 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 13:10:29,516 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 13:10:30,226 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 13:11:12,128 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 13:11:12,502 - app.services.database_service - INFO - Successfully loaded 20 businesses from database
+2025-09-22 13:12:25,214 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:12:25,214 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:12:25,214 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:14:18,905 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:14:18,905 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:14:18,905 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:15:23,581 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:15:23,581 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:15:23,582 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:15:45,099 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:15:45,099 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:15:45,100 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:17:01,575 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:17:01,575 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:17:01,576 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:19:10,928 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:19:10,929 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:19:10,929 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:19:10,992 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 13:19:10,994 - app.services.onboarding_service - INFO - AI category matching for services: transport
+2025-09-22 13:19:12,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 13:19:12,525 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 13:25:22,372 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:25:22,373 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:25:22,373 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:25:22,444 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 13:25:22,447 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 13:25:25,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 13:25:25,405 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 13:26:29,673 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:26:29,673 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:26:29,673 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:26:29,726 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 13:26:29,728 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 13:26:31,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 13:26:31,819 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 13:27:40,899 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:27:40,899 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:27:40,899 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:27:40,960 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 13:27:40,962 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 13:27:42,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 13:27:42,431 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 13:29:49,092 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:29:49,092 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:29:49,092 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:29:49,154 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 13:29:49,171 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 13:29:51,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 13:29:51,398 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 14:10:50,164 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:10:50,164 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:10:50,164 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:10:50,245 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:10:50,247 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 14:10:51,603 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:10:51,654 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 14:10:53,421 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:10:53,422 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:10:53,422 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:10:53,478 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:10:53,480 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 14:10:54,993 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:10:55,048 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 14:11:19,197 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:11:19,198 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:11:19,198 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:11:19,245 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:11:19,246 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 14:11:21,012 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:11:21,058 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 14:13:25,795 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:13:25,795 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:13:25,795 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:13:25,875 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:13:25,877 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 14:13:28,264 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:13:28,311 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 14:15:35,279 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:15:35,279 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:15:35,279 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:15:35,338 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:15:35,340 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 14:15:38,496 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:15:38,554 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 14:17:46,307 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:17:46,307 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:17:46,307 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:17:46,372 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:17:46,382 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 14:17:48,001 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:17:48,069 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 14:19:20,597 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:19:20,597 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:19:20,597 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:19:24,077 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:20:02,435 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:20:02,435 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:20:02,435 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:20:03,472 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:22:08,692 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:22:08,692 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:22:08,692 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:22:08,745 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:22:08,747 - app.services.onboarding_service - INFO - AI category matching for services: transport
+2025-09-22 14:22:11,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:22:11,946 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 14:22:36,904 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:22:36,904 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:22:36,905 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:22:36,952 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:22:36,954 - app.services.onboarding_service - INFO - AI category matching for services: transport
+2025-09-22 14:22:38,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:23:03,161 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:23:03,161 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:23:03,161 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:23:03,216 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:23:03,218 - app.services.onboarding_service - INFO - AI category matching for services: transport
+2025-09-22 14:23:04,482 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:23:04,529 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 14:23:49,661 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 14:23:49,662 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 14:23:49,662 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 14:23:49,713 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 14:23:49,714 - app.services.onboarding_service - INFO - AI category matching for services: Car Wash
+2025-09-22 14:23:51,368 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:23:51,420 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 16:15:55,268 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 16:15:56,050 - app.services.database_service - INFO - Successfully loaded 8503 businesses from database
+2025-09-22 16:15:56,056 - app.services.recommendation_service - INFO - Filtering 8503 businesses based on preferences: interests=['tech', 'fashion'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 16:15:56,082 - app.services.recommendation_service - INFO - Found 469 businesses matching preferences
+2025-09-22 16:15:56,083 - app.services.recommendation_service - INFO - Returning 469 unique businesses after filtering
+2025-09-22 16:44:18,340 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 16:44:18,341 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 16:44:18,341 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 16:44:18,430 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 16:44:18,433 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 16:44:21,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:44:21,771 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 18:00:20,471 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:00:20,472 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:00:20,472 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:00:23,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:00:48,525 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:00:48,525 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:00:48,526 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:00:50,194 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:01:08,487 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:01:08,488 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:01:08,488 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:01:11,181 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:01:11,183 - app.services.onboarding_service - INFO - Auto-determined category: BEAUTY_SPA with confidence 0.85
+2025-09-22 18:01:11,183 - app.services.onboarding_service - INFO - Generating description for tash collections with services: Custom jewelry design, Handmade accessories, Fashion jewelry styling
+2025-09-22 18:01:13,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:01:13,611 - app.services.onboarding_service - INFO - Generated description with 175 words
+2025-09-22 18:02:51,527 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:02:51,527 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:02:51,527 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:02:51,528 - app.services.onboarding_service - INFO - Service: 'handmade accessories' -> Search query: 'handmade accessories'
+2025-09-22 18:02:51,578 - app.services.onboarding_service - INFO - Pexels search query: 'handmade accessories' (page 3)
+2025-09-22 18:02:52,421 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=handmade%20accessories&per_page=1&orientation=landscape&page=3 "HTTP/1.1 200 OK"
+2025-09-22 18:02:52,423 - app.services.onboarding_service - INFO - Found 1 images for query: 'handmade accessories'
+2025-09-22 18:03:07,305 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:03:07,306 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:03:07,306 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:03:07,306 - app.services.onboarding_service - INFO - Service: 'handmade accessories' -> Search query: 'handmade accessories'
+2025-09-22 18:03:07,362 - app.services.onboarding_service - INFO - Pexels search query: 'handmade accessories' (page 2)
+2025-09-22 18:03:08,285 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=handmade%20accessories&per_page=1&orientation=landscape&page=2 "HTTP/1.1 200 OK"
+2025-09-22 18:03:08,286 - app.services.onboarding_service - INFO - Found 1 images for query: 'handmade accessories'
+2025-09-22 18:03:23,967 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:03:23,969 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:03:23,969 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:03:23,970 - app.services.onboarding_service - INFO - Service: 'handmade accessories' -> Search query: 'handmade accessories'
+2025-09-22 18:03:24,017 - app.services.onboarding_service - INFO - Pexels search query: 'handmade accessories' (page 3)
+2025-09-22 18:03:25,035 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=handmade%20accessories&per_page=1&orientation=landscape&page=3 "HTTP/1.1 200 OK"
+2025-09-22 18:03:25,036 - app.services.onboarding_service - INFO - Found 1 images for query: 'handmade accessories'
+2025-09-22 18:05:11,951 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:05:11,951 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:05:11,951 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:05:11,952 - app.services.onboarding_service - INFO - Service: 'handmade accessories' -> Search query: 'handmade accessories'
+2025-09-22 18:05:11,994 - app.services.onboarding_service - INFO - Pexels search query: 'handmade accessories' (page 1)
+2025-09-22 18:05:12,795 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=handmade%20accessories&per_page=1&orientation=landscape&page=1 "HTTP/1.1 200 OK"
+2025-09-22 18:05:12,796 - app.services.onboarding_service - INFO - Found 1 images for query: 'handmade accessories'
+2025-09-22 18:08:13,649 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:08:13,649 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:08:13,649 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:08:13,649 - app.services.onboarding_service - INFO - Service: 'handmade accessories' -> Search query: 'handmade accessories'
+2025-09-22 18:08:13,688 - app.services.onboarding_service - INFO - Pexels search query: 'handmade accessories' (page 4)
+2025-09-22 18:08:14,512 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=handmade%20accessories&per_page=1&orientation=landscape&page=4 "HTTP/1.1 200 OK"
+2025-09-22 18:08:14,513 - app.services.onboarding_service - INFO - Found 1 images for query: 'handmade accessories'
+2025-09-22 18:22:10,490 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:22:10,490 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:22:10,490 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:22:13,576 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:22:21,379 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:22:21,380 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:22:21,380 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:22:24,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:22:24,807 - app.services.onboarding_service - INFO - Auto-determined category: AUTO with confidence 0.95
+2025-09-22 18:22:24,807 - app.services.onboarding_service - INFO - Generating description for AutoXpress garage with services: Oil Change, Brake Repair, Engine Diagnostics
+2025-09-22 18:22:27,963 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:22:27,974 - app.services.onboarding_service - INFO - Generated description with 170 words
+2025-09-22 18:23:31,987 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:23:31,987 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:23:31,987 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:23:31,988 - app.services.onboarding_service - INFO - Found exact match for keyword: 'oil change'
+2025-09-22 18:23:31,988 - app.services.onboarding_service - INFO - Service: 'oil change' -> Search query: 'mechanic pouring engine oil car maintenance'
+2025-09-22 18:23:32,033 - app.services.onboarding_service - INFO - Pexels search query: 'mechanic pouring engine oil car maintenance' (page 4)
+2025-09-22 18:23:33,183 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=mechanic%20pouring%20engine%20oil%20car%20maintenance&per_page=1&orientation=landscape&page=4 "HTTP/1.1 200 OK"
+2025-09-22 18:23:33,184 - app.services.onboarding_service - INFO - Found 1 images for query: 'mechanic pouring engine oil car maintenance'
+2025-09-22 18:23:33,184 - app.services.onboarding_service - INFO - Found exact match for keyword: 'oil change'
+2025-09-22 18:24:14,085 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:24:14,085 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:24:14,085 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:24:14,086 - app.services.onboarding_service - INFO - Found exact match for keyword: 'oil change'
+2025-09-22 18:24:14,086 - app.services.onboarding_service - INFO - Service: 'oil change' -> Search query: 'mechanic pouring engine oil car maintenance'
+2025-09-22 18:24:14,125 - app.services.onboarding_service - INFO - Pexels search query: 'mechanic pouring engine oil car maintenance' (page 3)
+2025-09-22 18:24:14,928 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=mechanic%20pouring%20engine%20oil%20car%20maintenance&per_page=1&orientation=landscape&page=3 "HTTP/1.1 200 OK"
+2025-09-22 18:24:14,937 - app.services.onboarding_service - INFO - Found 1 images for query: 'mechanic pouring engine oil car maintenance'
+2025-09-22 18:24:14,938 - app.services.onboarding_service - INFO - Found exact match for keyword: 'oil change'
+2025-09-22 18:26:35,306 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:26:35,306 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:26:35,306 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:26:35,306 - app.services.onboarding_service - INFO - Found exact match for keyword: 'oil change'
+2025-09-22 18:26:35,306 - app.services.onboarding_service - INFO - Service: 'oil change' -> Search query: 'mechanic pouring engine oil car maintenance'
+2025-09-22 18:26:35,345 - app.services.onboarding_service - INFO - Pexels search query: 'mechanic pouring engine oil car maintenance' (page 2)
+2025-09-22 18:26:36,199 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=mechanic%20pouring%20engine%20oil%20car%20maintenance&per_page=1&orientation=landscape&page=2 "HTTP/1.1 200 OK"
+2025-09-22 18:26:36,200 - app.services.onboarding_service - INFO - Found 1 images for query: 'mechanic pouring engine oil car maintenance'
+2025-09-22 18:26:36,201 - app.services.onboarding_service - INFO - Found exact match for keyword: 'oil change'
+2025-09-22 18:30:45,140 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:30:45,141 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:30:45,141 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:30:48,308 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:30:55,581 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:30:55,581 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:30:55,581 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:30:56,551 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:30:56,556 - app.services.onboarding_service - INFO - Auto-determined category: RESTAURANTS with confidence 0.95
+2025-09-22 18:30:56,556 - app.services.onboarding_service - INFO - Generating description for Swahili dishes with services: Traditional Swahili cuisine, Catering for events
+2025-09-22 18:30:59,945 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:30:59,947 - app.services.onboarding_service - INFO - Generated description with 171 words
+2025-09-22 18:31:52,909 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:31:52,910 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:31:52,910 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:31:52,910 - app.services.onboarding_service - INFO - Found exact match for keyword: 'catering'
+2025-09-22 18:31:52,910 - app.services.onboarding_service - INFO - Service: 'catering' -> Search query: 'catering buffet food presentation event'
+2025-09-22 18:31:52,963 - app.services.onboarding_service - INFO - Pexels search query: 'catering buffet food presentation event' (page 2)
+2025-09-22 18:31:53,809 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=catering%20buffet%20food%20presentation%20event&per_page=1&orientation=landscape&page=2 "HTTP/1.1 200 OK"
+2025-09-22 18:31:53,810 - app.services.onboarding_service - INFO - Found 1 images for query: 'catering buffet food presentation event'
+2025-09-22 18:31:53,811 - app.services.onboarding_service - INFO - Found exact match for keyword: 'catering'
+2025-09-22 18:35:09,724 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:35:09,724 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:35:09,724 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:35:09,725 - app.services.onboarding_service - INFO - Found exact match for keyword: 'catering'
+2025-09-22 18:35:09,725 - app.services.onboarding_service - INFO - Service: 'catering' -> Search query: 'catering buffet food presentation event'
+2025-09-22 18:35:09,765 - app.services.onboarding_service - INFO - Pexels search query: 'catering buffet food presentation event' (page 2)
+2025-09-22 18:35:10,566 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=catering%20buffet%20food%20presentation%20event&per_page=1&orientation=landscape&page=2 "HTTP/1.1 200 OK"
+2025-09-22 18:35:10,567 - app.services.onboarding_service - INFO - Found 1 images for query: 'catering buffet food presentation event'
+2025-09-22 18:35:10,568 - app.services.onboarding_service - INFO - Found exact match for keyword: 'catering'
+2025-09-22 18:44:24,895 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:44:24,895 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:44:24,895 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:44:26,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:44:34,836 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:44:34,836 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:44:34,836 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:44:36,238 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:44:36,251 - app.services.onboarding_service - INFO - Auto-determined category: RESTAURANTS with confidence 0.95
+2025-09-22 18:44:36,251 - app.services.onboarding_service - INFO - Generating description for Swahili dishes with services: Catering for events, Meal delivery service, Private chef services
+2025-09-22 18:44:39,114 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:44:39,116 - app.services.onboarding_service - INFO - Generated description with 175 words
+2025-09-22 18:45:36,174 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:45:36,174 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:45:36,174 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:45:36,175 - app.services.onboarding_service - INFO - Found exact match for keyword: 'catering'
+2025-09-22 18:45:36,175 - app.services.onboarding_service - INFO - Service: 'catering' -> Search query: 'catering buffet food presentation event'
+2025-09-22 18:45:36,219 - app.services.onboarding_service - INFO - Pexels search query: 'catering buffet food presentation event' (page 4)
+2025-09-22 18:45:37,042 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=catering%20buffet%20food%20presentation%20event&per_page=1&orientation=landscape&page=4 "HTTP/1.1 200 OK"
+2025-09-22 18:45:37,044 - app.services.onboarding_service - INFO - Found 1 images for query: 'catering buffet food presentation event'
+2025-09-22 18:45:37,044 - app.services.onboarding_service - INFO - Found exact match for keyword: 'catering'
+2025-09-22 18:54:40,921 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 18:54:41,574 - app.services.database_service - INFO - Successfully loaded 8504 businesses from database
+2025-09-22 18:54:41,593 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 18:54:42,317 - app.services.database_service - INFO - Successfully loaded 8504 businesses from database
+2025-09-22 18:57:13,274 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 18:57:13,904 - app.services.database_service - INFO - Successfully loaded 8504 businesses from database
+2025-09-22 18:57:13,910 - app.services.recommendation_service - INFO - Filtering 8504 businesses based on preferences: interests=['tech', 'fashion'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 18:57:13,931 - app.services.recommendation_service - INFO - Found 468 businesses matching preferences
+2025-09-22 18:57:13,932 - app.services.recommendation_service - INFO - Returning 468 unique businesses after filtering
+2025-09-22 18:57:50,969 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:57:50,970 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:57:50,970 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:57:53,635 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:58:05,986 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 18:58:05,986 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 18:58:05,986 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 18:58:07,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:58:07,300 - app.services.onboarding_service - INFO - Auto-determined category: SERVICES with confidence 0.95
+2025-09-22 18:58:07,300 - app.services.onboarding_service - INFO - Generating description for Phone palace with services: Phone repairs, Screen replacements, Battery replacements, Phone unlocking
+2025-09-22 18:58:09,625 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 18:58:09,627 - app.services.onboarding_service - INFO - Generated description with 182 words
+2025-09-22 19:00:47,051 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 19:00:47,052 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 19:00:47,052 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 19:00:47,052 - app.services.onboarding_service - INFO - Found exact match for keyword: 'phone repair'
+2025-09-22 19:00:47,052 - app.services.onboarding_service - INFO - Service: 'phone repair' -> Search query: 'mobile phone repair technician tools'
+2025-09-22 19:00:47,108 - app.services.onboarding_service - INFO - Pexels search query: 'mobile phone repair technician tools' (page 3)
+2025-09-22 19:00:47,943 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=mobile%20phone%20repair%20technician%20tools&per_page=1&orientation=landscape&page=3 "HTTP/1.1 200 OK"
+2025-09-22 19:00:47,944 - app.services.onboarding_service - INFO - Found 1 images for query: 'mobile phone repair technician tools'
+2025-09-22 19:00:47,945 - app.services.onboarding_service - INFO - Found exact match for keyword: 'phone repair'
+2025-09-22 19:28:50,025 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 19:28:50,745 - app.services.database_service - INFO - Successfully loaded 8505 businesses from database
+2025-09-22 19:28:50,751 - app.services.recommendation_service - INFO - Filtering 8505 businesses based on preferences: interests=['tech', 'health'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 19:28:50,769 - app.services.recommendation_service - INFO - Found 426 businesses matching preferences
+2025-09-22 19:28:50,770 - app.services.recommendation_service - INFO - Returning 426 unique businesses after filtering
+2025-09-22 19:29:08,264 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 19:29:08,979 - app.services.database_service - INFO - Successfully loaded 8505 businesses from database
+2025-09-22 19:29:08,997 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 19:29:09,609 - app.services.database_service - INFO - Successfully loaded 8505 businesses from database
+2025-09-22 19:30:09,679 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 19:30:09,679 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 19:30:09,679 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 19:30:11,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 19:30:18,117 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 19:30:18,118 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 19:30:18,118 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 19:30:21,079 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 19:30:21,084 - app.services.onboarding_service - INFO - Auto-determined category: SERVICES with confidence 0.95
+2025-09-22 19:30:21,084 - app.services.onboarding_service - INFO - Generating description for tech enterprise with services: IT consulting, Network security, Digital transformation
+2025-09-22 19:30:23,163 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 19:30:23,167 - app.services.onboarding_service - INFO - Generated description with 181 words
+2025-09-22 19:31:16,007 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 19:31:16,007 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 19:31:16,007 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 19:31:16,008 - app.services.onboarding_service - INFO - Found exact match for keyword: 'consulting'
+2025-09-22 19:31:16,008 - app.services.onboarding_service - INFO - Service: 'consulting' -> Search query: 'business consultation meeting professionals'
+2025-09-22 19:31:16,048 - app.services.onboarding_service - INFO - Pexels search query: 'business consultation meeting professionals' (page 1)
+2025-09-22 19:31:16,980 - httpx - INFO - HTTP Request: GET https://api.pexels.com/v1/search?query=business%20consultation%20meeting%20professionals&per_page=1&orientation=landscape&page=1 "HTTP/1.1 200 OK"
+2025-09-22 19:31:16,984 - app.services.onboarding_service - INFO - Found 1 images for query: 'business consultation meeting professionals'
+2025-09-22 19:31:16,984 - app.services.onboarding_service - INFO - Found exact match for keyword: 'consulting'
+2025-09-22 19:33:38,726 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 19:33:39,496 - app.services.database_service - INFO - Successfully loaded 8506 businesses from database
+2025-09-22 19:33:39,519 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 19:33:40,129 - app.services.database_service - INFO - Successfully loaded 8506 businesses from database
+2025-09-22 21:35:06,763 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 21:35:07,585 - app.services.database_service - INFO - Successfully loaded 8506 businesses from database
+2025-09-22 21:35:07,591 - app.services.recommendation_service - INFO - Filtering 8506 businesses based on preferences: interests=['tech', 'fashion', 'cars', 'electronics'] location='nairobi' price_range=<PriceRange.MODERATE: 'moderate'>
+2025-09-22 21:35:07,615 - app.services.recommendation_service - INFO - Found 1929 businesses matching preferences
+2025-09-22 21:35:07,616 - app.services.recommendation_service - INFO - Returning 1929 unique businesses after filtering
+2025-09-22 22:55:34,572 - app.main - INFO - Shutting down application...
+2025-09-22 22:55:34,573 - app.database.connection - INFO - Database connections closed
+2025-09-22 22:55:34,573 - app.main - INFO - Application shutdown complete
