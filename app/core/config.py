@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     GOOGLE_APPLICATION_CREDENTIALS: str
     PROJECT_NAME: str = "ML Hub API"
     API_V1_STR: str = "/api/v1"
-    CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:3001", "http://197.248.202.79:5070"]
+    CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:3001", "http://197.248.202.79:5070", "https://more.co.ke", "https://developer.more.co.ke"]
     
     # Database
     DATABASE_HOST: str = "localhost"
