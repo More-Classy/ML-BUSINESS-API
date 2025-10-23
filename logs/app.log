@@ -4807,3 +4807,247 @@ knowledge_answers {
 2025-09-20 21:07:34,650 - app.main - INFO - Shutting down application...
 2025-09-20 21:07:34,650 - app.database.connection - INFO - Database connections closed
 2025-09-20 21:07:34,650 - app.main - INFO - Application shutdown complete
+2025-09-22 10:33:00,336 - app.main - INFO - Starting up application...
+2025-09-22 10:33:00,402 - app.database.connection - INFO - Database connection established successfully
+2025-09-22 10:33:00,402 - app.main - INFO - Database connected successfully
+2025-09-22 10:33:00,404 - app.main - INFO - DatabaseService initialized
+2025-09-22 10:33:01,032 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 10:33:01,032 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 10:33:01,032 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 10:33:01,073 - app.services.dialogflow_service - ERROR - Failed to initialize Dialogflow client: File ./credentials/shared_seperate.json was not found.
+2025-09-22 10:33:01,756 - app.main - INFO - Preloading businesses from database...
+2025-09-22 10:33:01,756 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 10:33:03,928 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-22 10:33:03,928 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-22 10:33:03,928 - app.main - INFO - Application startup complete
+2025-09-22 10:33:56,896 - app.main - INFO - Shutting down application...
+2025-09-22 10:33:56,897 - app.database.connection - INFO - Database connections closed
+2025-09-22 10:33:56,897 - app.main - INFO - Application shutdown complete
+2025-09-22 10:34:05,212 - app.main - INFO - Starting up application...
+2025-09-22 10:34:05,229 - app.database.connection - INFO - Database connection established successfully
+2025-09-22 10:34:05,231 - app.main - INFO - Database connected successfully
+2025-09-22 10:34:05,231 - app.main - INFO - DatabaseService initialized
+2025-09-22 10:34:05,934 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 10:34:05,934 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 10:34:05,934 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 10:34:06,682 - app.main - INFO - Preloading businesses from database...
+2025-09-22 10:34:06,682 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 10:34:08,509 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-09-22 10:34:08,518 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-09-22 10:34:08,518 - app.main - INFO - Application startup complete
+2025-09-22 10:35:14,815 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 10:35:14,815 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 10:35:14,815 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 10:35:16,205 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 10:35:47,234 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 10:35:47,237 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 10:35:47,237 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 10:35:48,294 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 10:35:48,296 - app.services.onboarding_service - INFO - AI category matching for services: Oil Change, Brake Repair
+2025-09-22 10:35:49,792 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 10:35:51,135 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 10:37:10,378 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 10:37:10,378 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 10:37:10,378 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 10:37:11,692 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 10:37:32,469 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 10:37:32,469 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 10:37:32,469 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 10:37:33,559 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 10:37:33,565 - app.services.onboarding_service - INFO - AI category matching for services: Catering for events, Meal delivery service, Cooking classes
+2025-09-22 10:37:36,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 10:37:37,773 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-22 13:09:40,666 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 13:09:41,369 - app.services.database_service - INFO - Successfully loaded 20 businesses from database
+2025-09-22 13:10:24,168 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-09-22 13:10:24,788 - app.services.database_service - INFO - Successfully loaded 20 businesses from database
+2025-09-22 13:12:08,852 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-09-22 13:12:08,865 - app.services.onboarding_service - INFO - Pexels API key found
+2025-09-22 13:12:08,865 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-09-22 13:12:09,443 - httpx - INFO - HTTP Request: GET http://197.248.202.79:5080/api/category "HTTP/1.1 200 OK"
+2025-09-22 13:12:09,448 - app.services.onboarding_service - INFO - AI category matching for services: food
+2025-09-22 13:12:11,288 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 13:12:11,946 - httpx - INFO - HTTP Request: POST http://197.248.202.79:5080/api/Tag/GetByCategory "HTTP/1.1 400 Bad Request"
+2025-09-23 15:57:01,263 - app.main - INFO - Shutting down application...
+2025-09-23 15:57:01,285 - app.database.connection - INFO - Database connections closed
+2025-09-23 15:57:01,285 - app.main - INFO - Application shutdown complete
+2025-10-07 17:00:59,542 - app.main - INFO - Starting up application...
+2025-10-07 17:00:59,823 - app.database.connection - INFO - Database connection established successfully
+2025-10-07 17:00:59,823 - app.main - INFO - Database connected successfully
+2025-10-07 17:00:59,823 - app.main - INFO - DatabaseService initialized
+2025-10-07 17:01:00,145 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-10-07 17:01:00,145 - app.services.onboarding_service - INFO - Pexels API key found
+2025-10-07 17:01:00,145 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-10-07 17:01:00,742 - app.main - INFO - Preloading businesses from database...
+2025-10-07 17:01:00,742 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-10-07 17:01:02,527 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-10-07 17:01:02,527 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-10-07 17:01:02,527 - app.main - INFO - Application startup complete
+2025-10-07 17:14:26,360 - app.main - INFO - Shutting down application...
+2025-10-07 17:14:26,362 - app.database.connection - INFO - Database connections closed
+2025-10-07 17:14:26,363 - app.main - INFO - Application shutdown complete
+2025-10-07 17:20:39,596 - app.main - INFO - Starting up application...
+2025-10-07 17:20:39,602 - app.database.connection - INFO - Database connection established successfully
+2025-10-07 17:20:39,603 - app.main - INFO - Database connected successfully
+2025-10-07 17:20:39,603 - app.main - INFO - DatabaseService initialized
+2025-10-07 17:20:39,918 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-10-07 17:20:39,918 - app.services.onboarding_service - INFO - Pexels API key found
+2025-10-07 17:20:39,918 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-10-07 17:20:40,328 - app.main - INFO - Preloading businesses from database...
+2025-10-07 17:20:40,328 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-10-07 17:20:41,049 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-10-07 17:20:41,049 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-10-07 17:20:41,049 - app.main - INFO - Application startup complete
+2025-10-07 17:22:54,385 - app.main - INFO - Shutting down application...
+2025-10-07 17:22:54,385 - app.database.connection - INFO - Database connections closed
+2025-10-07 17:22:54,385 - app.main - INFO - Application shutdown complete
+2025-10-08 10:23:35,018 - app.main - INFO - Starting up application...
+2025-10-08 10:23:35,043 - app.database.connection - INFO - Database connection established successfully
+2025-10-08 10:23:35,043 - app.main - INFO - Database connected successfully
+2025-10-08 10:23:35,043 - app.main - INFO - DatabaseService initialized
+2025-10-08 10:23:35,446 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-10-08 10:23:35,446 - app.services.onboarding_service - INFO - Pexels API key found
+2025-10-08 10:23:35,446 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-10-08 10:23:35,901 - app.main - INFO - Preloading businesses from database...
+2025-10-08 10:23:35,901 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-10-08 10:23:36,854 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-10-08 10:23:36,859 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-10-08 10:23:36,859 - app.main - INFO - Application startup complete
+2025-10-08 10:24:03,525 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-10-08 10:24:05,895 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Hi"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Hello! Nice to see you."
+fulfillment_messages {
+  text {
+    text: "Hello! Nice to see you."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 1
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 819
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.2
+    magnitude: 0.2
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTQwNDc5MDk1NTYzNjU4MTk5MDU"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NjIzNjk5NDEzOTY0OTQ3NDU3"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTU4NzgwNTk4NTQ5Mzg1MDUyMTc"
+    faq_question: "Hi"
+    answer: "Hello! Nice to see you."
+    match_confidence_level: HIGH
+    match_confidence: 1
+  }
+}
+
+2025-10-08 10:24:30,650 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/string
+2025-10-08 10:24:33,501 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "How can i onboard my business on more classifieds"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+fulfillment_messages {
+  text {
+    text: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.968542337
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 774
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How can I get started with listing my business on More Classifieds?"
+    answer: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+    match_confidence_level: HIGH
+    match_confidence: 0.968542337
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How do I stay updated with More Classifieds?"
+    answer: "You can stay connected with us through our active social media platforms. Follow us on Facebook, Instagram, LinkedIn, Pinterest, TikTok, and Twitter under the handle @moreclassifieds to receive updates, insights, and promotional offers directly from our team."
+    match_confidence_level: HIGH
+    match_confidence: 0.9638502
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How can I onboard a business on More?"
+    answer: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+    match_confidence_level: HIGH
+    match_confidence: 0.962539196
+  }
+}
+
+2025-10-13 10:10:11,512 - app.main - INFO - Shutting down application...
+2025-10-13 10:10:11,546 - app.database.connection - INFO - Database connections closed
+2025-10-13 10:10:11,546 - app.main - INFO - Application shutdown complete
+2025-10-13 10:25:36,607 - app.main - INFO - Starting up application...
+2025-10-13 10:25:36,685 - app.database.connection - INFO - Database connection established successfully
+2025-10-13 10:25:36,685 - app.main - INFO - Database connected successfully
+2025-10-13 10:25:36,685 - app.main - INFO - DatabaseService initialized
+2025-10-13 10:25:37,056 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-10-13 10:25:37,056 - app.services.onboarding_service - INFO - Pexels API key found
+2025-10-13 10:25:37,056 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-10-13 10:25:37,598 - app.main - INFO - Preloading businesses from database...
+2025-10-13 10:25:37,600 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-10-13 10:25:38,572 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-10-13 10:25:38,576 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-10-13 10:25:38,576 - app.main - INFO - Application startup complete
+2025-10-13 10:26:58,961 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-10-13 10:26:59,772 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-10-13 10:26:59,776 - app.services.recommendation_service - INFO - Filtering 8173 businesses based on preferences: interests=['Restaurant'] location='Nairobi' price_range=<PriceRange.BUDGET: 'budget'>
+2025-10-13 10:26:59,788 - app.services.recommendation_service - INFO - Found 10 businesses matching preferences
+2025-10-13 10:26:59,788 - app.services.recommendation_service - INFO - Returning 10 unique businesses after filtering
+2025-10-13 10:36:35,993 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-10-13 10:36:36,931 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-10-13 10:36:36,931 - app.services.recommendation_service - INFO - Filtering 8173 businesses based on preferences: interests=['Restaurant'] location='Nairobi' price_range=<PriceRange.BUDGET: 'budget'>
+2025-10-13 10:36:36,931 - app.services.recommendation_service - INFO - Found 4 businesses matching preferences
+2025-10-13 10:36:36,931 - app.services.recommendation_service - INFO - Returning 4 unique businesses after filtering
+2025-10-13 11:07:28,776 - app.main - INFO - Shutting down application...
+2025-10-13 11:07:28,776 - app.database.connection - INFO - Database connections closed
+2025-10-13 11:07:28,778 - app.main - INFO - Application shutdown complete
