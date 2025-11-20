@@ -5051,3 +5051,385 @@ knowledge_answers {
 2025-10-13 11:07:28,776 - app.main - INFO - Shutting down application...
 2025-10-13 11:07:28,776 - app.database.connection - INFO - Database connections closed
 2025-10-13 11:07:28,778 - app.main - INFO - Application shutdown complete
+2025-11-20 13:05:54,228 - app.main - INFO - Starting up application...
+2025-11-20 13:05:54,253 - app.database.connection - INFO - Database connection established successfully
+2025-11-20 13:05:54,253 - app.main - INFO - Database connected successfully
+2025-11-20 13:05:54,257 - app.main - INFO - DatabaseService initialized
+2025-11-20 13:05:54,841 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-11-20 13:05:54,841 - app.services.onboarding_service - INFO - Pexels API key found
+2025-11-20 13:05:54,841 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-11-20 13:05:54,841 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 13:05:55,437 - app.main - INFO - Preloading businesses from database...
+2025-11-20 13:05:55,437 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-11-20 13:05:56,428 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-11-20 13:05:56,431 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-11-20 13:05:56,433 - app.main - INFO - Application startup complete
+2025-11-20 13:10:22,876 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-11-20 13:10:22,881 - app.services.onboarding_service - INFO - Pexels API key found
+2025-11-20 13:10:22,881 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-11-20 13:10:24,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 13:11:50,003 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 13:11:50,670 - app.services.dialogflow_service - ERROR - Dialogflow client not initialized or project ID missing
+2025-11-20 13:11:52,821 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 13:12:31,375 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 13:12:32,050 - app.services.dialogflow_service - ERROR - Dialogflow client not initialized or project ID missing
+2025-11-20 13:12:34,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 13:14:32,466 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 13:14:33,115 - app.services.dialogflow_service - ERROR - Dialogflow client not initialized or project ID missing
+2025-11-20 13:14:35,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 13:15:09,922 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 13:15:10,676 - app.services.dialogflow_service - ERROR - Dialogflow client not initialized or project ID missing
+2025-11-20 13:15:13,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 14:48:40,816 - app.main - INFO - Shutting down application...
+2025-11-20 14:48:40,816 - app.database.connection - INFO - Database connections closed
+2025-11-20 14:48:40,816 - app.main - INFO - Application shutdown complete
+2025-11-20 14:48:45,175 - app.main - INFO - Starting up application...
+2025-11-20 14:48:45,191 - app.database.connection - INFO - Database connection established successfully
+2025-11-20 14:48:45,192 - app.main - INFO - Database connected successfully
+2025-11-20 14:48:45,193 - app.main - INFO - DatabaseService initialized
+2025-11-20 14:48:45,648 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-11-20 14:48:45,649 - app.services.onboarding_service - INFO - Pexels API key found
+2025-11-20 14:48:45,650 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-11-20 14:48:45,651 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 14:48:46,149 - app.main - INFO - Preloading businesses from database...
+2025-11-20 14:48:46,150 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-11-20 14:48:46,880 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-11-20 14:48:46,895 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-11-20 14:48:46,895 - app.main - INFO - Application startup complete
+2025-11-20 15:10:51,693 - app.main - INFO - Shutting down application...
+2025-11-20 15:10:51,693 - app.database.connection - INFO - Database connections closed
+2025-11-20 15:10:51,696 - app.main - INFO - Application shutdown complete
+2025-11-20 15:10:55,923 - app.main - INFO - Starting up application...
+2025-11-20 15:10:55,925 - app.database.connection - INFO - Database connection established successfully
+2025-11-20 15:10:55,925 - app.main - INFO - Database connected successfully
+2025-11-20 15:10:55,925 - app.main - INFO - DatabaseService initialized
+2025-11-20 15:10:56,627 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-11-20 15:10:56,627 - app.services.onboarding_service - INFO - Pexels API key found
+2025-11-20 15:10:56,627 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-11-20 15:10:56,627 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 15:10:57,818 - app.main - INFO - Preloading businesses from database...
+2025-11-20 15:10:57,818 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-11-20 15:10:58,935 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-11-20 15:10:58,939 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-11-20 15:10:58,939 - app.main - INFO - Application startup complete
+2025-11-20 15:15:33,484 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 15:15:34,613 - app.services.chat_service - ERROR - Error saving message: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`more`.`chat_messages`, CONSTRAINT `chat_messages_ibfk_1` FOREIGN KEY (`session_id`) REFERENCES `chat_sessions` (`session_id`) ON DELETE CASCADE)')
+2025-11-20 15:15:34,613 - app.services.chat_service - ERROR - Error sending message: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`more`.`chat_messages`, CONSTRAINT `chat_messages_ibfk_1` FOREIGN KEY (`session_id`) REFERENCES `chat_sessions` (`session_id`) ON DELETE CASCADE)')
+2025-11-20 15:15:34,622 - app.services.chat_service - ERROR - Error saving message: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`more`.`chat_messages`, CONSTRAINT `chat_messages_ibfk_1` FOREIGN KEY (`session_id`) REFERENCES `chat_sessions` (`session_id`) ON DELETE CASCADE)')
+2025-11-20 15:19:27,087 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 15:19:27,679 - app.services.chat_service - ERROR - Error saving message: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`more`.`chat_messages`, CONSTRAINT `chat_messages_ibfk_1` FOREIGN KEY (`session_id`) REFERENCES `chat_sessions` (`session_id`) ON DELETE CASCADE)')
+2025-11-20 15:19:27,679 - app.services.chat_service - ERROR - Error sending message: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`more`.`chat_messages`, CONSTRAINT `chat_messages_ibfk_1` FOREIGN KEY (`session_id`) REFERENCES `chat_sessions` (`session_id`) ON DELETE CASCADE)')
+2025-11-20 15:19:27,679 - app.services.chat_service - ERROR - Error saving message: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`more`.`chat_messages`, CONSTRAINT `chat_messages_ibfk_1` FOREIGN KEY (`session_id`) REFERENCES `chat_sessions` (`session_id`) ON DELETE CASCADE)')
+2025-11-20 15:19:27,709 - app.main - INFO - Shutting down application...
+2025-11-20 15:19:27,710 - app.database.connection - INFO - Database connections closed
+2025-11-20 15:19:27,711 - app.main - INFO - Application shutdown complete
+2025-11-20 15:19:31,678 - app.main - INFO - Starting up application...
+2025-11-20 15:19:31,688 - app.database.connection - INFO - Database connection established successfully
+2025-11-20 15:19:31,688 - app.main - INFO - Database connected successfully
+2025-11-20 15:19:31,689 - app.main - INFO - DatabaseService initialized
+2025-11-20 15:19:32,394 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-11-20 15:19:32,394 - app.services.onboarding_service - INFO - Pexels API key found
+2025-11-20 15:19:32,394 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-11-20 15:19:32,394 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 15:19:33,092 - app.main - INFO - Preloading businesses from database...
+2025-11-20 15:19:33,092 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-11-20 15:19:34,331 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-11-20 15:19:34,337 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-11-20 15:19:34,339 - app.main - INFO - Application startup complete
+2025-11-20 15:21:24,001 - app.services.dialogflow_service - WARNING - Dialogflow module is not available
+2025-11-20 15:21:24,630 - app.services.dialogflow_service - ERROR - Dialogflow client not initialized or project ID missing
+2025-11-20 15:21:26,647 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 15:27:04,034 - app.main - INFO - Shutting down application...
+2025-11-20 15:27:04,034 - app.database.connection - INFO - Database connections closed
+2025-11-20 15:27:04,034 - app.main - INFO - Application shutdown complete
+2025-11-20 15:28:44,630 - app.main - INFO - Starting up application...
+2025-11-20 15:28:44,652 - app.database.connection - INFO - Database connection established successfully
+2025-11-20 15:28:44,658 - app.main - INFO - Database connected successfully
+2025-11-20 15:28:44,668 - app.main - INFO - DatabaseService initialized
+2025-11-20 15:28:45,515 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-11-20 15:28:45,515 - app.services.onboarding_service - INFO - Pexels API key found
+2025-11-20 15:28:45,515 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-11-20 15:28:46,393 - app.main - INFO - Preloading businesses from database...
+2025-11-20 15:28:46,394 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-11-20 15:28:47,609 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-11-20 15:28:47,609 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-11-20 15:28:47,620 - app.main - INFO - Application startup complete
+2025-11-20 15:36:41,613 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/aog99tqs31uagltqrjt1m
+2025-11-20 15:36:43,730 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "Hello there"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Hey there! Great to see you."
+fulfillment_messages {
+  text {
+    text: "Hey there! Great to see you."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.972276151
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 910
+    }
+  }
+}
+language_code: "en"
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.3
+    magnitude: 0.3
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NjIzNjk5NDEzOTY0OTQ3NDU3"
+    faq_question: "Hey there"
+    answer: "Hey there! Great to see you."
+    match_confidence_level: HIGH
+    match_confidence: 0.972276151
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTQwNDc5MDk1NTYzNjU4MTk5MDU"
+    faq_question: "Hello"
+    answer: "Hi there! How’s your day going?"
+    match_confidence_level: HIGH
+    match_confidence: 0.969647
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTU4NzgwNTk4NTQ5Mzg1MDUyMTc"
+    faq_question: "Hello"
+    answer: "Hi there! How’s your day going?"
+    match_confidence_level: HIGH
+    match_confidence: 0.969647
+  }
+}
+
+2025-11-20 15:37:13,191 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/aog99tqs31uagltqrjt1m
+2025-11-20 15:37:16,626 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "how can i onboard my business on more classifieds"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+fulfillment_messages {
+  text {
+    text: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.968542337
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 2104
+    }
+  }
+}
+language_code: "en"
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: -0.1
+    magnitude: 0.1
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How can I get started with listing my business on More Classifieds?"
+    answer: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+    match_confidence_level: HIGH
+    match_confidence: 0.968542337
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How do I stay updated with More Classifieds?"
+    answer: "You can stay connected with us through our active social media platforms. Follow us on Facebook, Instagram, LinkedIn, Pinterest, TikTok, and Twitter under the handle @moreclassifieds to receive updates, insights, and promotional offers directly from our team."
+    match_confidence_level: HIGH
+    match_confidence: 0.9638502
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How can I onboard a business on More?"
+    answer: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+    match_confidence_level: HIGH
+    match_confidence: 0.962539196
+  }
+}
+
+2025-11-20 15:38:52,888 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/3jyox6jlgxaez2lq6n9vc
+2025-11-20 15:38:55,299 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "what is more popote?"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+fulfillment_messages {
+  text {
+    text: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.973293364
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 1006
+    }
+  }
+}
+language_code: "en"
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "What is More Popote?"
+    answer: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+    match_confidence_level: HIGH
+    match_confidence: 0.973293364
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MjEzMzQxODgzMjY5NjQ0Mjg5"
+    faq_question: "What is More popote?"
+    answer: "Popote system allows users to earn by registering and verifying businesses across the globe. For more information on popote raise a ticket of inquiry to info@more.co.ke to learn more about the programme."
+    match_confidence_level: HIGH
+    match_confidence: 0.972990513
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What is More?"
+    answer: "More Classifieds is a centralized digital platform accessible via https://more.co.ke, designed to offer tailored advertising solutions that enhance brand visibility and audience interaction."
+    match_confidence_level: HIGH
+    match_confidence: 0.964276791
+  }
+}
+
+2025-11-20 15:55:07,838 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/odfwlwbh5da8mpsm5cxrp
+2025-11-20 15:55:09,972 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "How can i make money with more business"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "More Classifieds Agency has a cutting edge customer reward and affiliate program called More popote than can be accessed at  https://popote.more.co.ke"
+fulfillment_messages {
+  text {
+    text: "More Classifieds Agency has a cutting edge customer reward and affiliate program called More popote than can be accessed at  https://popote.more.co.ke"
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.974484742
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 914
+    }
+  }
+}
+language_code: "en"
+sentiment_analysis_result {
+  query_text_sentiment {
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MjEzMzQxODgzMjY5NjQ0Mjg5"
+    faq_question: "How can I make money with more business?"
+    answer: "More Classifieds Agency has a cutting edge customer reward and affiliate program called More popote than can be accessed at  https://popote.more.co.ke"
+    match_confidence_level: HIGH
+    match_confidence: 0.974484742
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "Can I earn real money?"
+    answer: "Absolutely. Your points can be converted into cash via M-Pesa anytime you want."
+    match_confidence_level: HIGH
+    match_confidence: 0.963912785
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "How can I onboard a business on More?"
+    answer: "Simply visit https://more.co.ke, sign up, and follow the guided process to create your business profile and publish your listings with the help of their expert team."
+    match_confidence_level: HIGH
+    match_confidence: 0.961699903
+  }
+}
+
+2025-11-20 15:56:39,962 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/odfwlwbh5da8mpsm5cxrp
+2025-11-20 15:56:41,860 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "can i get a refund if i accidentally paid twice"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "Duplicate payments are reviewed case-by-case. Please contact support within 48 hours with full payment details for resolution."
+fulfillment_messages {
+  text {
+    text: "Duplicate payments are reviewed case-by-case. Please contact support within 48 hours with full payment details for resolution."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.966126084
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 891
+    }
+  }
+}
+language_code: "en"
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: -0.4
+    magnitude: 0.4
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MjEzMzQxODgzMjY5NjQ0Mjg5"
+    faq_question: "I accidentally paid twice using two different methods (e.g., M-Pesa and card). Can I get a refund?"
+    answer: "Duplicate payments are reviewed case-by-case. Please contact support within 48 hours with full payment details for resolution."
+    match_confidence_level: HIGH
+    match_confidence: 0.966126084
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NTM0NDAzMjU3NDM3OTM5MzAyNQ"
+    faq_question: "I accidentally paid twice using two different methods (e.g., M-Pesa and card). Can I get a refund?"
+    answer: "Duplicate payments are reviewed case-by-case. Please contact support within 48 hours with full payment details for resolution."
+    match_confidence_level: HIGH
+    match_confidence: 0.966126084
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NTM0NDAzMjU3NDM3OTM5MzAyNQ"
+    faq_question: "What happens if I accidentally pay for the same package twice?"
+    answer: "If you’ve made a duplicate payment, please contact our support team immediately with the transaction details. Refunds are not guaranteed and are subject to internal review."
+    match_confidence_level: HIGH
+    match_confidence: 0.960438907
+  }
+}
+
+2025-11-20 16:04:49,244 - app.main - INFO - Shutting down application...
+2025-11-20 16:04:49,244 - app.database.connection - INFO - Database connections closed
+2025-11-20 16:04:49,246 - app.main - INFO - Application shutdown complete

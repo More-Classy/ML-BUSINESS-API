@@ -4,7 +4,8 @@ from app.api.v1.endpoints import (
     onboarding, 
     recommendations, 
     # tracking, 
-    dialogflow
+    dialogflow,
+    chat
 )
 
 api_router = APIRouter()
@@ -14,3 +15,4 @@ api_router.include_router(onboarding.router, prefix="/onboarding", tags=["AI Onb
 api_router.include_router(recommendations.router, prefix="/recommendations", tags=["Recommendations"])
 # api_router.include_router(tracking.router, prefix="/tracking", tags=["User Tracking & Preferences"])
 api_router.include_router(dialogflow.router, prefix="/support", tags=["AI Support"])
+api_router.include_router(chat.router, prefix="/chat", tags=["Chat"])

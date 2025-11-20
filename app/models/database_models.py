@@ -138,3 +138,51 @@ class ModelTrainingJob(Base):
     started_at = Column(DateTime, nullable=True)
     completed_at = Column(DateTime, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
+
+class ChatSession(Base):
+    __tablename__ = "chat_sessions"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    session_id = Column(String(255), unique=True, nullable=False, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=True, index=True)
+    email = Column(String(255), nullable=True, index=True)
+    name = Column(String(255), nullable=True)
+    browser_fingerprint = Column(String(255), nullable=True, index=True)
+    ip_address = Column(String(45), nullable=True)
+    user_agent = Column(String(500), nullable=True)
+    status = Column(String(50), default='active', index=True)  # 'active', 'closed', 'archived'
+    metadata = Column(JSON, nullable=True)  # Additional session data
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    last_message_at = Column(DateTime, nullable=True)
+    
+    # Relationships
+    messages = relationship("ChatMessage", back_populates="session", cascade="all, delete-orphan")
+    
+    __table_args__ = (
+        Index('idx_session_user', 'session_id', 'user_id'),
+        Index('idx_session_email', 'session_id', 'email'),
+        Index('idx_session_fingerprint', 'session_id', 'browser_fingerprint'),
+    )
+
+class ChatMessage(Base):
+    __tablename__ = "chat_messages"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    session_id = Column(String(255), ForeignKey("chat_sessions.session_id"), nullable=False, index=True)
+    message = Column(Text, nullable=False)
+    sender = Column(String(50), nullable=False, index=True)  # 'user', 'bot'
+    message_type = Column(String(50), default='text')  # 'text', 'image', 'file', etc.
+    intent = Column(String(255), nullable=True)
+    confidence = Column(Float, nullable=True)
+    source = Column(String(50), nullable=True)  # 'knowledge_base', 'dialogflow', 'chatgpt', 'homepage_context'
+    metadata = Column(JSON, nullable=True)  # Additional message data
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
+    
+    # Relationships
+    session = relationship("ChatSession", back_populates="messages")
+    
+    __table_args__ = (
+        Index('idx_session_sender', 'session_id', 'sender'),
+        Index('idx_session_created', 'session_id', 'created_at'),
+    )

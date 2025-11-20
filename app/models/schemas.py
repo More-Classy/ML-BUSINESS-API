@@ -207,3 +207,47 @@ class HealthResponse(BaseModel):
     status: str = Field(..., description="Service status")
     database: str = Field(..., description="Database connection status")
     services: Dict[str, str] = Field(..., description="Individual service statuses")
+
+# Chat schemas
+class ChatSessionCreate(BaseModel):
+    session_id: Optional[str] = Field(None, description="Session ID (auto-generated if not provided)")
+    email: Optional[str] = Field(None, description="User email")
+    name: Optional[str] = Field(None, description="User name")
+    browser_fingerprint: Optional[str] = Field(None, description="Browser fingerprint for tracking")
+    ip_address: Optional[str] = Field(None, description="User IP address")
+    user_agent: Optional[str] = Field(None, description="User agent string")
+
+class ChatSessionResponse(BaseModel):
+    session_id: str = Field(..., description="Session ID")
+    user_id: Optional[int] = Field(None, description="User ID if linked")
+    email: Optional[str] = Field(None, description="User email")
+    name: Optional[str] = Field(None, description="User name")
+    is_returning_user: bool = Field(..., description="Whether user is returning")
+    existing_session: bool = Field(..., description="Whether session already existed")
+
+class ChatMessageRequest(BaseModel):
+    message: str = Field(..., description="User message")
+    session_id: str = Field(..., description="Session ID")
+    user_email: Optional[str] = Field(None, description="User email")
+    user_name: Optional[str] = Field(None, description="User name")
+
+class ChatMessageResponse(BaseModel):
+    response: str = Field(..., description="AI response")
+    session_id: str = Field(..., description="Session ID")
+    intent: str = Field(..., description="Detected intent")
+    confidence: float = Field(..., ge=0, le=1, description="Confidence score")
+    source: str = Field(..., description="Response source (knowledge_base/dialogflow/chatgpt)")
+
+class ChatHistoryResponse(BaseModel):
+    messages: List[Dict] = Field(..., description="List of chat messages")
+    session_id: str = Field(..., description="Session ID")
+
+class ChatMessageItem(BaseModel):
+    id: int
+    message: str
+    sender: str
+    message_type: str = "text"
+    intent: Optional[str] = None
+    confidence: Optional[float] = None
+    source: Optional[str] = None
+    timestamp: str
