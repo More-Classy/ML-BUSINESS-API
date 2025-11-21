@@ -1,2 +1,8 @@
 .env
 /credentials/dialogflow-service-account.json
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+logs/
