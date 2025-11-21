@@ -5433,3 +5433,74 @@ knowledge_answers {
 2025-11-20 16:04:49,244 - app.main - INFO - Shutting down application...
 2025-11-20 16:04:49,244 - app.database.connection - INFO - Database connections closed
 2025-11-20 16:04:49,246 - app.main - INFO - Application shutdown complete
+2025-11-21 09:58:15,004 - app.main - INFO - Starting up application...
+2025-11-21 09:58:15,069 - app.database.connection - INFO - Database connection established successfully
+2025-11-21 09:58:15,069 - app.main - INFO - Database connected successfully
+2025-11-21 09:58:15,069 - app.main - INFO - DatabaseService initialized
+2025-11-21 09:58:15,950 - app.services.onboarding_service - INFO - OpenAI client initialized successfully
+2025-11-21 09:58:15,952 - app.services.onboarding_service - INFO - Pexels API key found
+2025-11-21 09:58:15,952 - app.services.onboarding_service - INFO - Backend URL: http://197.248.202.79:5080
+2025-11-21 09:58:16,860 - app.main - INFO - Preloading businesses from database...
+2025-11-21 09:58:16,862 - app.services.database_service - INFO - Fetching businesses directly from MySQL database
+2025-11-21 09:58:18,261 - app.services.database_service - INFO - Successfully loaded 8173 businesses from database
+2025-11-21 09:58:18,274 - app.main - INFO - Successfully preloaded 8173 businesses from database
+2025-11-21 09:58:18,274 - app.main - INFO - Application startup complete
+2025-11-21 10:01:52,391 - app.services.dialogflow_service - INFO - Using session: projects/moresupport-ajjb/agent/sessions/str24984
+2025-11-21 10:01:54,924 - app.services.dialogflow_service - INFO - Dialogflow result: query_text: "What is more popote"
+language_code: "en"
+parameters {
+}
+all_required_params_present: true
+fulfillment_text: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+fulfillment_messages {
+  text {
+    text: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+  }
+}
+webhook_source: "knowledge_base"
+intent {
+  name: "projects/moresupport-ajjb/agent/intents/18050587-7d3a-4a51-93cd-c0e1f0c5af77"
+  display_name: "Knowledge.KnowledgeBase.MTMyNTExNDEyMzk3NTI4ODQyMjU"
+}
+intent_detection_confidence: 0.970575511
+diagnostic_info {
+  fields {
+    key: "webhook_latency_ms"
+    value {
+      number_value: 896
+    }
+  }
+}
+sentiment_analysis_result {
+  query_text_sentiment {
+    score: 0.1
+    magnitude: 0.1
+  }
+}
+knowledge_answers {
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MTIxMTIxODg1NDkzNDA1OTQxNzc"
+    faq_question: "What is More Popote?"
+    answer: "More Popote is an affiliate-style community-driven onboarding system by More Classifieds. It turns everyday people into Popote Champions who help businesses sign up, post ads, and get verified—all while earning rewards."
+    match_confidence_level: HIGH
+    match_confidence: 0.970575511
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/MjEzMzQxODgzMjY5NjQ0Mjg5"
+    faq_question: "What is More popote?"
+    answer: "Popote system allows users to earn by registering and verifying businesses across the globe. For more information on popote raise a ticket of inquiry to info@more.co.ke to learn more about the programme."
+    match_confidence_level: HIGH
+    match_confidence: 0.970433295
+  }
+  answers {
+    source: "projects/moresupport-ajjb/knowledgeBases/MTMyNTExNDEyMzk3NTI4ODQyMjU/documents/NzU3NTE2ODE2NjUzMjIxODg4MQ"
+    faq_question: "What is More?"
+    answer: "More Classifieds is a centralized digital platform accessible via https://more.co.ke, designed to offer tailored advertising solutions that enhance brand visibility and audience interaction."
+    match_confidence_level: HIGH
+    match_confidence: 0.960370839
+  }
+}
+
+2025-11-21 10:07:58,073 - app.main - INFO - Shutting down application...
+2025-11-21 10:07:58,073 - app.database.connection - INFO - Database connections closed
+2025-11-21 10:07:58,073 - app.main - INFO - Application shutdown complete
