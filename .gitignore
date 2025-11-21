@@ -1,8 +1,16 @@
-.env
-/credentials/dialogflow-service-account.json
-
-.venv/
-venv/
+# Python cache
 __pycache__/
 *.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Logs
+*.log
 logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
